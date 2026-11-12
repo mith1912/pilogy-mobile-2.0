@@ -1,0 +1,60 @@
+PILOGY environment doctor (all)
+OS: Darwin; CPU: x86_64
+ProductName:		macOS
+ProductVersion:		15.7.9
+BuildVersion:		24G830
+PASS: CPU supported (native SDK required)
+FAIL: FVM missing; run scripts/setup.sh --install
+FAIL: Pinned SDK missing. Run scripts/setup.sh --install.
+FAIL: Pinned SDK absent/wrong; run scripts/setup.sh --install
+WARNING: PATH Flutter version 3.47.9 (<HOME>/FlutterSDK/flutter/bin/flutter) is ignored; expected 3.47.9 stable. Use scripts/flutter.sh or fvm flutter.
+PASS: Gradle 8.14 / AGP 8.11.1 / Kotlin 2.2.20
+PASS: package IDs and Firebase copies match preserved references
+PASS: Project pins, IDs and Firebase references (restore config/ from secure project source)
+PASS: supplied identifiers classified; invalid/missing production formats recorded
+PASS: native IDs match source, delayed measurement, branding and portrait preserved
+PASS: SKAdNetwork snapshot unique; ad IDs absent from screen widgets; debug test guard present
+Source checks only: no Flutter analysis, platform build, consent UI or ad serving verified.
+PASS: AdMob configuration and native App IDs (see scripts/verify_admob.py)
+PASS: Flutter package configuration exists; build scripts enforce pubspec.lock again
+openjdk version "17.0.21" 2026-10-20
+OpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)
+OpenJDK 64-Bit Server VM Temurin-17.0.21+9 (build 17.0.21+9, mixed mode)
+PASS: Java expected 17.0.21 (process-local selection)
+Android SDK: <HOME>/Library/Android/sdk
+FAIL: Project-local Flutter Java/SDK configuration missing or stale; run setup. Global Android Studio Java must not override the pinned JDK.
+FAIL: Flutter uses project-local Java/SDK settings, without changing global config
+PASS: Android package platforms/android-36
+PASS: Android package build-tools/35.0.0
+PASS: Android package ndk/28.2.13676358
+PASS: Android package cmake/3.22.1
+PASS: Android package platform-tools
+PASS: Required Android SDK packages
+PASS: Command-line Tools 23.0
+PASS: existing SDK license records match the inspected baseline and installed package metadata; no licenses accepted
+PASS: Android SDK license acceptance (read-only; review missing terms in Android Studio)
+Exception in thread "main" java.io.FileNotFoundException: <HOME>/.gradle/wrapper/dists/gradle-8.14-all/c2qonpi39x1mddn7hk5gh9iqj/gradle-8.14-all.zip.lck (Operation not permitted)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:344)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:259)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:213)
+	at org.gradle.wrapper.ExclusiveFileAccessManager.access(ExclusiveFileAccessManager.java:49)
+	at org.gradle.wrapper.Install.createDist(Install.java:48)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:128)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+FAIL: Gradle wrapper expected 8.14 (no global Gradle)
+/Applications/Xcode.app/Contents/Developer
+PASS: Xcode selected (use DEVELOPER_DIR for this process or select in Xcode Settings)
+Xcode 26.3
+Build version 17C529
+PASS: Exact detected Xcode baseline
+PASS: Xcode license/first-launch components (open Xcode and complete setup manually)
+PASS: iOS device and simulator SDKs available
+ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [x86_64-darwin23]
+PASS: Ruby expected 3.3.0
+Bundler version 2.5.4
+PASS: Bundler expected 2.5.4 (project gems)
+FAIL: Gemfile.lock missing: run setup to resolve, review and commit the genuine lockfile
+FAIL: ios/Podfile.lock absent: resolve Pods on a working Mac, review and commit before reproducibility can be claimed
+
+Doctor: 6 mandatory check(s) failed. Android/iOS signing is validated separately by release builds.

@@ -1,0 +1,2 @@
+PASS: macOS 15.7.9, CPU x86_64
+FAIL: Missing dependency: fvm. Rerun scripts/setup.sh --install to authorize non-sudo Homebrew/project-local installation.

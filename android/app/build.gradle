@@ -53,6 +53,8 @@ def admobAppId = appIdMatcher.group(1)
 android {
     namespace "mt.numerology"
     compileSdkVersion 36
+    // AGP 8.11.1 default, made explicit for reproducible SDK installation.
+    buildToolsVersion "35.0.0"
     ndkVersion flutter.ndkVersion
 
     compileOptions {

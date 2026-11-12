@@ -1,0 +1,4 @@
+PASS: supplied identifiers classified; invalid/missing production formats recorded
+PASS: native IDs match source, delayed measurement, branding and portrait preserved
+PASS: SKAdNetwork snapshot unique; ad IDs absent from screen widgets; debug test guard present
+Source checks only: no Flutter analysis, platform build, consent UI or ad serving verified.

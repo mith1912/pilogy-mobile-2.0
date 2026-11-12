@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
-cd "$(dirname "$0")/.."
+# shellcheck source=scripts/lib/environment.sh
+source "$(dirname "$0")/lib/environment.sh"
 
 bundle_mode="${1:-internal-test}"
 if (( $# > 0 )); then shift; fi
@@ -45,11 +46,17 @@ if not Path('config/keystore.jks').is_file():
 PY
 
 # Keep each acceptance command visible; no secrets are passed on command lines.
+flutter_sdk
+select_java || fail "JDK $PILOGY_JAVA required; scripts/setup.sh --install"
+android_sdk || fail 'Android SDK unavailable; scripts/setup.sh --install'
+configure_android_local
+build_api production
+scripts/doctor.sh --android
 python3 scripts/verify_admob.py
-flutter pub get
-dart format .
-flutter analyze
-flutter test
-flutter build appbundle --release "$@" "${ad_flags[@]}" --dart-define=ENABLE_TELEMETRY=false
+resolve_packages
+dart_cmd format .
+flutter_cmd analyze
+flutter_cmd test
+flutter_cmd build appbundle --release "$@" "${ad_flags[@]}" --dart-define="API_BASE_URL=$API_BASE_URL" --dart-define=ENABLE_TELEMETRY=false
 python3 scripts/verify_play_bundle.py
 printf '\nBundle mode: %s\nOutput: build/app/outputs/bundle/release/app-release.aab\n' "$bundle_mode"

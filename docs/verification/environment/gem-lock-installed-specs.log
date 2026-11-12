@@ -1,0 +1,11 @@
+Writing lockfile to <PROJECT>/Gemfile.lock
+Resolving dependencies...
+Could not find compatible versions
+
+Because cocoapods >= 1.15.2 depends on xcodeproj >= 1.23.0, < 2.0
+  and every version of xcodeproj depends on CFPropertyList >= 2.3.3, < 4.0,
+  cocoapods >= 1.15.2 requires CFPropertyList >= 2.3.3, < 4.0.
+So, because CFPropertyList >= 2.3.3, < 4.0 could not be found in locally
+installed gems
+  and Gemfile depends on cocoapods = 1.15.2,
+  version solving has failed.

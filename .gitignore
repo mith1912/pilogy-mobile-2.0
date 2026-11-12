@@ -18,3 +18,21 @@ coverage/
 /android/key.properties
 
 /config/key.properties
+
+# Project-local toolchains and dependencies (keep .fvmrc and lockfiles)
+.fvm/
+.tooling/
+.bundle/
+vendor/bundle/
+.env
+.env.*
+!.env.example
+**/*.p12
+**/*.pfx
+**/*.mobileprovision
+**/*.provisionprofile
+__pycache__/
+**/*.p8
+**/*.cer
+**/*.der
+/ExportOptions.plist

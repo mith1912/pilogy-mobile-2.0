@@ -1,0 +1,3 @@
+Would remove build
+Would remove .dart_tool
+Would run Flutter clean: false; locked dependency reinstall: false

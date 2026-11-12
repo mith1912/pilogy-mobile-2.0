@@ -1,0 +1,2 @@
+PASS: Gradle 8.14 / AGP 8.11.1 / Kotlin 2.2.20
+PASS: package IDs and Firebase copies match preserved references

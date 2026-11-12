@@ -1,0 +1,50 @@
+{
+  "macos": {
+    "exit_code": 0,
+    "output": "ProductName:\t\tmacOS\nProductVersion:\t\t15.7.9\nBuildVersion:\t\t24G830\n"
+  },
+  "cpu": {
+    "exit_code": 0,
+    "output": "x86_64\n"
+  },
+  "xcode": {
+    "exit_code": 0,
+    "output": "Xcode 26.3\nBuild version 17C529\n"
+  },
+  "xcode_sdks": {
+    "exit_code": 0,
+    "output": "DriverKit SDKs:\n\tDriverKit 25.2                \t-sdk driverkit25.2\n\niOS SDKs:\n\tiOS 26.2                      \t-sdk iphoneos26.2\n\niOS Simulator SDKs:\n\tSimulator - iOS 26.2          \t-sdk iphonesimulator26.2\n\nmacOS SDKs:\n\tmacOS 26.2                    \t-sdk macosx26.2\n\tmacOS 26.2                    \t-sdk macosx26.2\n\ntvOS SDKs:\n\ttvOS 26.2                     \t-sdk appletvos26.2\n\ntvOS Simulator SDKs:\n\tSimulator - tvOS 26.2         \t-sdk appletvsimulator26.2\n\nvisionOS SDKs:\n\tvisionOS 26.2                 \t-sdk xros26.2\n\nvisionOS Simulator SDKs:\n\tSimulator - visionOS 26.2     \t-sdk xrsimulator26.2\n\nwatchOS SDKs:\n\twatchOS 26.2                  \t-sdk watchos26.2\n\nwatchOS Simulator SDKs:\n\tSimulator - watchOS 26.2      \t-sdk watchsimulator26.2\n\n"
+  },
+  "java17": {
+    "exit_code": 0,
+    "output": "openjdk version \"17.0.21\" 2026-10-20\nOpenJDK Runtime Environment Temurin-17.0.21+9 (build 17.0.21+9)\nOpenJDK 64-Bit Server VM Temurin-17.0.21+9 (build 17.0.21+9, mixed mode)\n"
+  },
+  "ruby3": {
+    "exit_code": 0,
+    "output": "ruby 3.3.0 (2023-12-25 revision 5124f9ac75) [x86_64-darwin23]\n"
+  },
+  "bundler": {
+    "exit_code": 0,
+    "output": "Bundler version 2.5.4\n"
+  },
+  "flutter_sdk_metadata": {
+    "frameworkVersion": "3.47.9",
+    "channel": "stable",
+    "repositoryUrl": "https://github.com/flutter/flutter.git",
+    "frameworkRevision": "c197ca5199e9ee5661e865596c9c07294dfab51c",
+    "frameworkCommitDate": "2026-10-29 10:10:20 -0400",
+    "engineRevision": "89c39edfdfae2949f6806e4a315c0c08522238b7",
+    "engineCommitDate": "2026-10-27 19:51:20.000Z",
+    "engineContentHash": "9e025265bef30b838c0c1b68cad19decf97048f2",
+    "engineBuildDate": "2026-10-28 03:22:45.983",
+    "dartSdkVersion": "3.13.7",
+    "devToolsVersion": "2.60.0",
+    "flutterVersion": "3.47.9"
+  },
+  "cocoapods": {
+    "version": "1.15.2",
+    "source": "global pod --version during initial inspection (system Ruby 2.6.10)"
+  },
+  "sdk_cli_metadata": "Pkg.Revision=23.0\nPkg.Path=cmdline-tools;23.0\nPkg.Desc=Android SDK Command-line Tools\n",
+  "xcode_minimum_macos": "15.6"
+}

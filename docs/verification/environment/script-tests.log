@@ -1,0 +1,9 @@
+.............
+----------------------------------------------------------------------
+Ran 13 tests in 3.270s
+
+OK
+PASS: fresh artifact <TMP>
+Would remove build
+Removing build
+PASS: existing SDK license records match the inspected baseline and installed package metadata; no licenses accepted

@@ -1,0 +1,19 @@
+{
+  "setup-first": 1,
+  "setup-second": 1,
+  "doctor-all": 1,
+  "doctor-android": 1,
+  "doctor-ios": 1,
+  "pub-get": 1,
+  "format": 127,
+  "analyze": 1,
+  "flutter-tests": 1,
+  "android-debug": 1,
+  "ios-simulator": 1,
+  "script-tests": 0,
+  "clean-dry-run": 0,
+  "project-checks": 0,
+  "admob-checks": 0,
+  "bash-syntax": 0,
+  "shellcheck": "unavailable"
+}

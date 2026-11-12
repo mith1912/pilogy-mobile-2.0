@@ -1,0 +1,8 @@
+scripts/setup.sh: PASS
+scripts/build-android.sh: PASS
+scripts/doctor.sh: PASS
+scripts/flutter.sh: PASS
+scripts/clean.sh: PASS
+scripts/build-ios.sh: PASS
+scripts/build_play_bundle.sh: PASS
+scripts/lib/environment.sh: PASS

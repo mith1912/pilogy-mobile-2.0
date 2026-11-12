@@ -1,0 +1,37 @@
+name: Android verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  debug:
+    runs-on: macos-15
+    timeout-minutes: 45
+    env:
+      API_BASE_URL: https://example.invalid/api/v1
+      ADS_MODE: test
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version-file: .java-version
+      - name: Setup pinned environment
+        # Android SDK licenses are managed by the hosted runner, never auto-accepted here.
+        run: scripts/setup.sh --install --android
+      - name: Analyze and test
+        run: |
+          scripts/flutter.sh analyze
+          .fvm/flutter_sdk/bin/dart format --output=none --set-exit-if-changed .
+          scripts/flutter.sh test
+      - name: Build debug APK with Google test ads
+        run: scripts/build-android.sh debug
+      - name: Upload debug APK only
+        uses: actions/upload-artifact@v4
+        with:
+          name: pilogy-debug
+          path: build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7
