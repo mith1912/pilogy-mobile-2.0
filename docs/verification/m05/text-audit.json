@@ -1,0 +1,502 @@
+[
+  {
+    "file": "lib/core/design_system/widgets/app_components.dart",
+    "before": "Thử lại",
+    "after": "Thử Lại"
+  },
+  {
+    "file": "lib/core/presentation/pilogy_scaffold.dart",
+    "before": "Quay lại",
+    "after": "Quay Lại"
+  },
+  {
+    "file": "lib/core/presentation/pilogy_scaffold.dart",
+    "before": "Hồ sơ đã lưu",
+    "after": "Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/core/presentation/pilogy_scaffold.dart",
+    "before": "Khám phá",
+    "after": "Khám Phá"
+  },
+  {
+    "file": "lib/core/presentation/pilogy_scaffold.dart",
+    "before": "Phân tích",
+    "after": "Phân Tích"
+  },
+  {
+    "file": "lib/core/presentation/pilogy_scaffold.dart",
+    "before": "Hồ sơ",
+    "after": "Hồ Sơ"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Cài đặt",
+    "after": "Cài Đặt"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Cài đặt",
+    "after": "Cài Đặt"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Hồ sơ & Dữ liệu",
+    "after": "Hồ Sơ & Dữ Liệu"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Quản lý hồ sơ đã lưu",
+    "after": "Quản Lý Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Quyền riêng tư & Dữ liệu",
+    "after": "Quyền Riêng Tư & Dữ Liệu"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Tùy chọn trải nghiệm",
+    "after": "Tùy Chọn Trải Nghiệm"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Thông báo chiêm nghiệm",
+    "after": "Thông Báo Chiêm Nghiệm"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Ngôn ngữ hiển thị",
+    "after": "Ngôn Ngữ Hiển Thị"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Chế độ hiển thị",
+    "after": "Chế Độ Hiển Thị"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Sáng · Chưa có giao diện tối",
+    "after": "Sáng · Chưa Có Giao Diện Tối"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Hỗ trợ & Kiến thức",
+    "after": "Hỗ Trợ & Kiến Thức"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Phương pháp Pythagoras",
+    "after": "Phương Pháp Pythagoras"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Trung tâm trợ giúp (FAQ)",
+    "after": "Trung Tâm Trợ Giúp (FAQ)"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Pháp lý & Minh bạch",
+    "after": "Pháp Lý & Minh Bạch"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Tuyên bố miễn trừ trách nhiệm",
+    "after": "Tuyên Bố Miễn Trừ Trách Nhiệm"
+  },
+  {
+    "file": "lib/features/settings/presentation/settings_screen.dart",
+    "before": "Chính sách riêng tư & Điều khoản",
+    "after": "Chính Sách Riêng Tư & Điều Khoản"
+  },
+  {
+    "file": "lib/features/numerology/presentation/profile_header.dart",
+    "before": "Chọn hồ sơ",
+    "after": "Chọn Hồ Sơ"
+  },
+  {
+    "file": "lib/features/numerology/presentation/profile_header.dart",
+    "before": "Hồ sơ chính",
+    "after": "Hồ Sơ Chính"
+  },
+  {
+    "file": "lib/features/numerology/presentation/profile_header.dart",
+    "before": "Hồ sơ đã lưu",
+    "after": "Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/numerology/presentation/calculation_widgets.dart",
+    "before": "Làm mới dữ liệu",
+    "after": "Làm Mới Dữ Liệu"
+  },
+  {
+    "file": "lib/features/numerology/presentation/calculation_widgets.dart",
+    "before": "Hồ sơ đã lưu",
+    "after": "Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/numerology/presentation/calculation_widgets.dart",
+    "before": "Xem chi tiết",
+    "after": "Xem Chi Tiết"
+  },
+  {
+    "file": "lib/features/numerology/presentation/calculation_widgets.dart",
+    "before": "Phương thức quy nạp Pythagoras",
+    "after": "Phương Thức Quy Nạp Pythagoras"
+  },
+  {
+    "file": "lib/features/numerology/presentation/calculation_widgets.dart",
+    "before": "Các bước do máy chủ cung cấp",
+    "after": "Các Bước Do Máy Chủ Cung Cấp"
+  },
+  {
+    "file": "lib/features/numerology/presentation/refresh_status.dart",
+    "before": "Đã cập nhật",
+    "after": "Đã Cập Nhật"
+  },
+  {
+    "file": "lib/features/numerology/presentation/refresh_status.dart",
+    "before": "Làm mới dữ liệu",
+    "after": "Làm Mới Dữ Liệu"
+  },
+  {
+    "file": "lib/features/discover/presentation/discover_screen.dart",
+    "before": "Xem bản phân tích chi tiết của tôi",
+    "after": "Xem Bản Phân Tích Chi Tiết Của Tôi"
+  },
+  {
+    "file": "lib/features/discover/presentation/discover_cards.dart",
+    "before": "Năng lượng cốt lõi",
+    "after": "Năng Lượng Cốt Lõi"
+  },
+  {
+    "file": "lib/features/discover/presentation/discover_cards.dart",
+    "before": "Xem chi tiết",
+    "after": "Xem Chi Tiết"
+  },
+  {
+    "file": "lib/features/discover/presentation/discover_cards.dart",
+    "before": "Tổng hòa danh xưng",
+    "after": "Tổng Hòa Danh Xưng"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Biểu đồ ngày sinh",
+    "after": "Biểu Đồ Ngày Sinh"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Chu kỳ cá nhân",
+    "after": "Chu Kỳ Cá Nhân"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Tổng luận năng lượng chính",
+    "after": "Tổng Luận Năng Lượng Chính"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Nhóm Chỉ số Cốt lõi",
+    "after": "Nhóm Chỉ Số Cốt Lõi"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Trọng tâm bản mệnh",
+    "after": "Trọng Tâm Bản Mệnh"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "4 chỉ số",
+    "after": "4 Chỉ Số"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Nhóm Chỉ số Bổ trợ",
+    "after": "Nhóm Chỉ Số Bổ Trợ"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Tương tác môi trường & Giai đoạn",
+    "after": "Tương Tác Môi Trường & Giai Đoạn"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "3 chỉ số",
+    "after": "3 Chỉ Số"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Chỉ số Tiềm thức & Tâm linh",
+    "after": "Chỉ Số Tiềm Thức & Tâm Linh"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Tầng sâu nội tâm & Nghiệp nợ",
+    "after": "Tầng Sâu Nội Tâm & Nghiệp Nợ"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Lời nhắc nhở Pythagoras",
+    "after": "Lời Nhắc Nhở Pythagoras"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Chu kỳ cá nhân",
+    "after": "Chu Kỳ Cá Nhân"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Cốt tủy",
+    "after": "Cốt Tủy"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_cards.dart",
+    "before": "Chi tiết →",
+    "after": "Chi Tiết →"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_screen.dart",
+    "before": "PYTHAGORAS V1",
+    "after": "Pythagoras V1"
+  },
+  {
+    "file": "lib/features/analysis/presentation/analysis_screen.dart",
+    "before": "Bản đồ Thần số học",
+    "after": "Bản Đồ Thần Số Học"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Hủy bỏ",
+    "after": "Hủy Bỏ"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Quyền riêng tư & Dữ liệu",
+    "after": "Quyền Riêng Tư & Dữ Liệu"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "BẢO MẬT & MINH BẠCH",
+    "after": "Bảo Mật & Minh Bạch"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Cơ chế lưu trữ và tính toán",
+    "after": "Cơ Chế Lưu Trữ Và Tính Toán"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Lưu trữ cục bộ",
+    "after": "Lưu Trữ Cục Bộ"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Xuất dữ liệu hồ sơ (JSON)",
+    "after": "Xuất Dữ Liệu Hồ Sơ (JSON)"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Xuất hồ sơ trên thiết bị",
+    "after": "Xuất Hồ Sơ Trên Thiết Bị"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Xóa dữ liệu bộ nhớ đệm",
+    "after": "Xóa Dữ Liệu Bộ Nhớ Đệm"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Vùng nguy hiểm",
+    "after": "Vùng Nguy Hiểm"
+  },
+  {
+    "file": "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "before": "Xóa toàn bộ hồ sơ đã lưu",
+    "after": "Xóa Toàn Bộ Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "PILOGY NUMEROLOGY",
+    "after": "PILOGY Numerology"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Thấu hiểu bản thân qua Thần số học Pythagoras",
+    "after": "Thấu Hiểu Bản Thân Qua Thần Số Học Pythagoras"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "HỆ THỨC PYTHAGORAS",
+    "after": "Hệ Thức Pythagoras"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Luận giải chuyên sâu",
+    "after": "Luận Giải Chuyên Sâu"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Bảo mật dữ liệu cá nhân cục bộ",
+    "after": "Bảo Mật Dữ Liệu Cá Nhân Cục Bộ"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Không cần tài khoản hay mật khẩu",
+    "after": "Không Cần Tài Khoản Hay Mật Khẩu"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Bắt đầu khám phá",
+    "after": "Bắt Đầu Khám Phá"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Tôi đã có hồ sơ đã lưu",
+    "after": "Tôi Đã Có Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Hồ sơ trên thiết bị",
+    "after": "Hồ Sơ Trên Thiết Bị"
+  },
+  {
+    "file": "lib/features/welcome/presentation/welcome_screen.dart",
+    "before": "Mở hồ sơ đã lưu",
+    "after": "Mở Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profile_form_screen.dart",
+    "before": "Hủy bỏ",
+    "after": "Hủy Bỏ"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profile_form_screen.dart",
+    "before": "Xóa hồ sơ này",
+    "after": "Xóa Hồ Sơ Này"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Hồ sơ đã lưu",
+    "after": "Hồ Sơ Đã Lưu"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Hồ sơ chính đang chọn",
+    "after": "Hồ Sơ Chính Đang Chọn"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Xem phân tích",
+    "after": "Xem Phân Tích"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Bảo mật thiết bị",
+    "after": "Bảo Mật Thiết Bị"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Cài đặt ứng dụng",
+    "after": "Cài Đặt Ứng Dụng"
+  },
+  {
+    "file": "lib/features/profiles/presentation/profiles_screen.dart",
+    "before": "Quyền riêng tư & Quản lý dữ liệu",
+    "after": "Quyền Riêng Tư & Quản Lý Dữ Liệu"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_input_form.dart",
+    "before": "Nguyên tắc chuẩn xác",
+    "after": "Nguyên Tắc Chuẩn Xác"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_input_form.dart",
+    "before": "Họ và tên khai sinh",
+    "after": "Họ Và Tên Khai Sinh"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_input_form.dart",
+    "before": "Ngày sinh dương lịch",
+    "after": "Ngày Sinh Dương Lịch"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "Xác nhận xóa hồ sơ",
+    "after": "Xác Nhận Xóa Hồ Sơ"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "Hủy bỏ",
+    "after": "Hủy Bỏ"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "Xóa vĩnh viễn",
+    "after": "Xóa Vĩnh Viễn"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "Chỉnh sửa hồ sơ",
+    "after": "Chỉnh Sửa Hồ Sơ"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "Xóa hồ sơ",
+    "after": "Xóa Hồ Sơ"
+  },
+  {
+    "file": "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "before": "+ Thêm hồ sơ mới",
+    "after": "+ Thêm Hồ Sơ Mới"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Tần số rung động nội sinh",
+    "after": "Tần Số Rung Động Nội Sinh"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Năng khiếu bẩm sinh",
+    "after": "Năng Khiếu Bẩm Sinh"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Vùng mù nhận thức",
+    "after": "Vùng Mù Nhận Thức"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Chánh niệm",
+    "after": "Chánh Niệm"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Ghi chép cảm ngộ của bạn",
+    "after": "Ghi Chép Cảm Ngộ Của Bạn"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Tải lại luận giải",
+    "after": "Tải Lại Luận Giải"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Phương thức quy nạp Pythagoras",
+    "after": "Phương Thức Quy Nạp Pythagoras"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/interpretation_article.dart",
+    "before": "Các bước do máy chủ cung cấp",
+    "after": "Các Bước Do Máy Chủ Cung Cấp"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/number_detail_screen.dart",
+    "before": "Tùy chọn hồ sơ",
+    "after": "Tùy Chọn Hồ Sơ"
+  },
+  {
+    "file": "lib/features/number_detail/presentation/number_detail_screen.dart",
+    "before": "Hồ sơ chiêm nghiệm",
+    "after": "Hồ Sơ Chiêm Nghiệm"
+  }
+]

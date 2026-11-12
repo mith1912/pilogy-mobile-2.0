@@ -1,0 +1,18 @@
+{
+  "localRouteHandlerChecks": "passed",
+  "fixtureValuesAndSummariesMatch": true,
+  "allNineStepsPresent": true,
+  "calculationVersion": "v1",
+  "contentVersion": "v1.0.0-draft",
+  "referenceDate": "2026-11-08",
+  "fixtureSha256": {
+    "health.json": "a4021bb28e09a83afd550a1da84a8ace613cd1aea91260de73db8de6175fba37",
+    "config.json": "f746a9b0effe33836b27a4e6d770548f1263a7a25e18a51bb9941c759952105f",
+    "article.json": "ec712e5cce6eb7a8a66c5b3bceea2b5c63c6b74de10dc959410468c713033225",
+    "definitions.json": "c0247fb29ccf0b99c5b9b3a088d715292d16d6531ba579c5ce200cc13c09b2be",
+    "calculation.json": "7a09c952b91ac04eaf864b8b1f46116783174313b77015c4035027f198258116"
+  },
+  "dartParsingExecuted": false,
+  "dartSQLiteExecuted": false,
+  "liveHTTPVerified": false
+}

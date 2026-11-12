@@ -1,0 +1,1 @@
+PASS: five existing backend route handlers; nine fixture values and Master summary/base mapping. No live HTTP or Dart/SQLite verification.

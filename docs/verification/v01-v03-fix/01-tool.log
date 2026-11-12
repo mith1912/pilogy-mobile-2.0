@@ -1,0 +1,16 @@
+../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code
+version=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on "macos_x64"
+pid=15828, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)
+os=macos, arch=x64, comp=no, sim=no
+isolate_instructions=0, vm_instructions=0
+fp=7ff7b2079cd0, sp=7ff7b2079c98, pc=10e0ff3c4
+  pc 0x000000010e0ff3c4 fp 0x00007ff7b2079cd0 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x27b3c4
+  pc 0x000000010ded0454 fp 0x00007ff7b2079db0 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x4c454
+  pc 0x000000010e0199bd fp 0x00007ff7b207a1f0 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x1959bd
+  pc 0x000000010e0197fd fp 0x00007ff7b207a200 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x1957fd
+  pc 0x000000010e019c87 fp 0x00007ff7b207a850 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x195c87
+  pc 0x000000010e01a1f7 fp 0x00007ff7b207a860 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x1961f7
+  pc 0x000000010deb1627 fp 0x00007ff7b207a9a0 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x2d627
+  pc 0x000000010deb077d fp 0x00007ff7b207a9c0 /Users/sigmasolutions/FlutterSDK/flutter/bin/cache/dart-sdk/bin/dart+0x2c77d
+  pc 0x00007ff817761530 fp 0x00007ff7b207b030 start+0xbf0
+-- End of DumpStackTrace

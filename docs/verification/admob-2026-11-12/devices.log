@@ -1,0 +1,27 @@
+* daemon not running; starting now at tcp:5037
+ADB server didn't ACK
+Full server startup log: /var/folders/gt/vzwvgl9931dd2dt5z7t_41l40000gn/T//adb.501.log
+Server had pid: 2251
+--- adb starting (pid 2251) ---
+adb I 11-12 14:55:00  2251 19209 main.cpp:63] Android Debug Bridge version 1.0.41
+adb I 11-12 14:55:00  2251 19209 main.cpp:63] Version 33.0.2-8557947
+adb I 11-12 14:55:00  2251 19209 main.cpp:63] Installed as /Users/sigmasolutions/Library/Android/sdk/platform-tools/adb
+adb I 11-12 14:55:00  2251 19209 main.cpp:63] 
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb E 11-12 14:55:00  2251 19212 usb_osx.cpp:160] Unable to create an interface plug-in (e00002be)
+adb F 11-12 14:55:00  2251 19209 main.cpp:167] could not install *smartsocket* listener: Operation not permitted
+
+* failed to start daemon
+adb: failed to check server version: cannot connect to daemon

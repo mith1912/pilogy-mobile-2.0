@@ -1,0 +1,28 @@
+{
+  "changedExistingApplicationSources": [
+    "lib/core/presentation/pilogy_scaffold.dart",
+    "lib/features/discover/presentation/discover_screen.dart",
+    "lib/features/analysis/presentation/analysis_screen.dart",
+    "lib/features/number_detail/presentation/number_detail_screen.dart"
+  ],
+  "v01Unchanged": true,
+  "v03SharedExtractionOnly": true,
+  "otherScreensUnchanged": true,
+  "businessDataLayersUnchanged": true,
+  "configAndDesignPreserved": true,
+  "dependencyFilesUnchanged": true,
+  "nativeIdentifiersUnchanged": true,
+  "portraitPreserved": true,
+  "androidLegacyAndAdaptiveResourcesVerified": true,
+  "iosCatalogAllSizesOpaque": true,
+  "screenshotsCaptured": false,
+  "renderedUiCompared": false,
+  "newApplicationSources": [
+    "lib/features/numerology/presentation/profile_header.dart",
+    "lib/features/numerology/presentation/refresh_status.dart",
+    "lib/features/analysis/presentation/analysis_cards.dart",
+    "lib/features/number_detail/presentation/interpretation_article.dart"
+  ],
+  "optionalScaffoldSpacingDefaultUnchanged": true,
+  "generatedIconAssetInspected": true
+}

@@ -1,0 +1,11 @@
+# API models
+
+`features/numerology/domain/api_models.dart` defines Json parsing guards, CalculateRequest, CalculationResult, NameAnalysis/NameLetter, IndexType/IndexResult, CalculationStep, InterpretationSummary, FullInterpretation/InterpretationPoint, ArticleResult, HealthResult, BackendConfig/BackendFeatures, DefinitionsResult/IndexDefinition/MissingContent.
+
+All nine camelCase index IDs have enum members. CalculationResult requires every index and summary and verifies their type/value/baseValue correspondence. Integer fields are not coerced from strings or fractional doubles. Values preserve 1–9/11/22/33, baseValue preserves 1–9; Flutter does not reduce or calculate them. formatIndexValue only renders the supplied value/baseValue (11/2, 22/4, 33/6). Lookup always uses the actual value.
+
+Steps preserve label, operation, integer inputs, result, optional inputLabels (additive compatibility; not currently declared by backend), and unknown fields. Operation stays a string to preserve future operation IDs; current backend sends sum/digitSum. Optional per-index referenceDate must agree with the overall date when present. Dates are validated Gregorian YYYY-MM-DD strings, without timezone conversion. NameAnalysis preserves the backend normalized name, letter groups and totals; it does not derive them locally.
+
+Short summaries contain index/value/baseValue/title/subtitle/tagline/summary/keywords. Full articles additionally require essence, strengths/challenges as title/description arrays, relationships, careerAndGrowth, lifeLesson, reflection, affirmation and suggestedAction. periodFocus is optional in the general article shape (present for backend personal cycles). No interpretation text ships in lib/; synthetic test fixtures copy backend-provided Vietnamese content verbatim.
+
+Every ApiModel retains its complete JSON map, including additive fields, for lossless SQLite round trips. Cache stores the data portion of successful envelopes after validation; networking handles success/data. JSON is not a presentation or telemetry string. Required field failures emit a fixed malformed ApiFailure, without raw inputs or server bodies. Unknown new index IDs remain in raw JSON but are not added to V1's nine typed entries.

@@ -1,0 +1,44 @@
+{
+  "protected_files_checked": 59,
+  "protected_files_unchanged": true,
+  "native_branding_check": "PASS",
+  "modified_existing_source_files": [
+    "lib/core/design_system/widgets/app_components.dart",
+    "lib/core/presentation/route_placeholder.dart",
+    "lib/core/presentation/pilogy_scaffold.dart",
+    "lib/app/app.dart",
+    "lib/features/settings/presentation/settings_screen.dart",
+    "lib/features/numerology/presentation/profile_header.dart",
+    "lib/features/numerology/presentation/calculation_widgets.dart",
+    "lib/features/numerology/presentation/refresh_status.dart",
+    "lib/features/numerology/presentation/backend_providers.dart",
+    "lib/features/discover/presentation/discover_screen.dart",
+    "lib/features/discover/presentation/discover_cards.dart",
+    "lib/features/analysis/presentation/analysis_cards.dart",
+    "lib/features/analysis/presentation/analysis_screen.dart",
+    "lib/features/privacy_data/presentation/privacy_data_screen.dart",
+    "lib/features/welcome/presentation/welcome_screen.dart",
+    "lib/features/profiles/presentation/profile_form_screen.dart",
+    "lib/features/profiles/presentation/profiles_screen.dart",
+    "lib/features/profiles/presentation/widgets/profile_input_form.dart",
+    "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "lib/features/number_detail/presentation/interpretation_article.dart",
+    "lib/features/number_detail/presentation/number_detail_screen.dart",
+    "android/app/src/main/AndroidManifest.xml",
+    "ios/Runner/Info.plist",
+    "pubspec.yaml"
+  ],
+  "new_source_files": [
+    "lib/core/text/display_text.dart",
+    "lib/features/numerology/presentation/calculation_explanation.dart"
+  ],
+  "new_tests": [
+    "test/display_text_test.dart",
+    "test/calculation_explanation_test.dart",
+    "test/branding_test.dart",
+    "test/calendar_resume_test.dart"
+  ],
+  "flutter_commands_exit_code": 134,
+  "runtime_verified": false,
+  "screenshots_inspected": false
+}

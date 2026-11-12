@@ -1,0 +1,112 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.google.gms.google-services"
+    id "com.google.firebase.crashlytics"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+// Local upload key. Never fall back to the debug certificate for release.
+def uploadSigningFile = rootProject.file('key.properties')
+def uploadSigning = new Properties()
+if (uploadSigningFile.exists()) {
+    uploadSigningFile.withInputStream { uploadSigning.load(it) }
+}
+def uploadStorePath = uploadSigning.getProperty('storeFile')
+
+gradle.taskGraph.whenReady { graph ->
+    if (graph.allTasks.any { it.project == project && it.name.toLowerCase().contains('release') }) {
+        def required = ['storeFile', 'storePassword', 'keyAlias', 'keyPassword']
+        if (required.any { !uploadSigning.getProperty(it)?.trim() }) {
+            throw new GradleException('Release signing is incomplete. Fill android/key.properties locally; see docs/google-play-release.md.')
+        }
+        if (!rootProject.file(uploadStorePath).isFile()) {
+            throw new GradleException('Release upload keystore file is missing.')
+        }
+    }
+}
+
+// One production source of truth, shared with the Dart adapter.
+def adsSource = rootProject.file('../config/ads_util.dart').getText('UTF-8')
+def appIdMatcher = adsSource =~ /_androidAppId\s*=\s*"(ca-app-pub-\d{16}~\d{10})"/
+if (!appIdMatcher.find()) throw new GradleException('Missing Android AdMob App ID')
+def admobAppId = appIdMatcher.group(1)
+
+android {
+    namespace "mt.numerology"
+    compileSdkVersion 36
+    ndkVersion flutter.ndkVersion
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
+        applicationId "mt.numerology"
+        manifestPlaceholders += [admobAppId: admobAppId]
+        // You can update the following values to match your application needs.
+        // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+    }
+
+    signingConfigs {
+        release {
+            if (uploadStorePath) storeFile rootProject.file(uploadStorePath)
+            storePassword uploadSigning.getProperty('storePassword')
+            keyAlias uploadSigning.getProperty('keyAlias')
+            keyPassword uploadSigning.getProperty('keyPassword')
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    // Flutter's generated FlutterMultiDexApplication imports this class.
+    implementation 'androidx.multidex:multidex:2.0.1'
+}
+
+// Fail before building against an accidentally replaced Firebase application.
+def firebaseConfig = new groovy.json.JsonSlurper().parse(file('google-services.json'))
+if (!firebaseConfig.client.any { it.client_info.android_client_info?.package_name == 'mt.numerology' }) {
+    throw new GradleException('Firebase Android application ID must be mt.numerology')
+}

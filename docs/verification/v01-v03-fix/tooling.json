@@ -1,0 +1,32 @@
+[
+  {
+    "command": "flutter pub get",
+    "exitCode": -6,
+    "initializationCrash": true
+  },
+  {
+    "command": "dart format .",
+    "exitCode": -6,
+    "initializationCrash": true
+  },
+  {
+    "command": "flutter analyze",
+    "exitCode": -6,
+    "initializationCrash": true
+  },
+  {
+    "command": "flutter test",
+    "exitCode": -6,
+    "initializationCrash": true
+  },
+  {
+    "command": "flutter build apk --debug",
+    "exitCode": -6,
+    "initializationCrash": true
+  },
+  {
+    "command": "flutter build ios --simulator",
+    "exitCode": -6,
+    "initializationCrash": true
+  }
+]

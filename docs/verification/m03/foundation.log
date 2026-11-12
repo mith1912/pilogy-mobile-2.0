@@ -1,0 +1,9 @@
+PASS: design and Firebase files preserved byte-for-byte
+PASS: required project paths exist directly at /Users/sigmasolutions/Documents/Src/PLG/mobile
+PASS: Android ID and all iOS app configurations use mt.numerology
+PASS: native XML/plist/asset JSON parses; no unrendered template fields
+PASS: exactly eight allowed screen placeholders and routes
+PASS: all relative Dart imports resolve
+PASS: SQL initializes; selection cleanup, cache cascade, orphan rejection and article uniqueness work
+PASS: Firebase native copies, identifiers, Gradle plugins, Runner resources and startup wiring
+Flutter dependency resolution, compilation, analysis, and widget tests still require a functioning SDK.

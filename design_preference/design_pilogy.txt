@@ -1,0 +1,2217 @@
+<!-- V1-02: Tạo hồ sơ - Thần số học Pilogy -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline-variant": "#ccc4cd", "background": "#fef7ff", "primary-fixed": "#f0dbff", "outline": "#7b757d", "surface-container-highest": "#e8dfed", "on-secondary-fixed": "#261900", "inverse-primary": "#d4bfe3", "inverse-surface": "#332f39", "tertiary-container": "#4b4742", "on-tertiary-container": "#bbb5af", "tertiary": "#34312c", "inverse-on-surface": "#f6eefc", "on-tertiary-fixed-variant": "#4a4641", "error": "#ba1a1a", "surface-variant": "#e8dfed", "surface": "#fef7ff", "on-error": "#ffffff", "on-tertiary-fixed": "#1e1b17", "on-secondary": "#ffffff", "on-surface": "#1e1a23", "surface-container-low": "#f9f1ff", "on-surface-variant": "#4a454c", "secondary-fixed-dim": "#e4c284", "on-primary-container": "#c3aed2", "surface-bright": "#fef7ff", "primary-fixed-dim": "#d4bfe3", "on-error-container": "#93000a", "surface-dim": "#dfd7e5", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#ccc5bf", "surface-tint": "#695877", "tertiary-fixed": "#e8e1da", "on-primary": "#ffffff", "surface-container": "#f3ebf9", "on-primary-fixed-variant": "#50405e", "secondary-container": "#ffdb9b", "on-secondary-fixed-variant": "#5a4311", "on-background": "#1e1a23", "secondary-fixed": "#ffdea5", "on-primary-fixed": "#231531", "on-secondary-container": "#795f2b", "secondary": "#745a27", "primary-container": "#51415f", "surface-container-high": "#eee5f3", "primary": "#3a2b47" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xl": "2.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, fontFamily: { "label-md": ["Inter"], "body-md": ["Inter"], "display-numeral": ["Playfair Display"], "display-numeral-mobile": ["Playfair Display"], "body-lg": ["Inter"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "body-sm": ["Inter"], "headline-sm": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, fontSize: { "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,44px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Quay lại" class="w-11 h-11 -ml-2 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" onclick="history.back()"><span class="material-symbols-outlined text-[20px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight truncate max-w-[200px]">Tạo Hồ Sơ Mới</h1></div><div class="flex items-center gap-space-xs"><button aria-label="Tác vụ" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[20px]">more_horiz</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-safe"><div class="flex flex-col w-full">
+<!-- Mode Switcher Pill Banner (Demo state toggle between New & Edit) -->
+<div class="px-margin pt-space-sm pb-space-xs flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Chế độ hiển thị</span>
+<div class="inline-flex p-1 bg-surface-container-high rounded-full">
+<button class="px-3 py-1 rounded-full font-label-md text-label-md transition-all duration-200 bg-primary text-on-primary shadow-sm" id="btnModeCreate" onclick="switchMode('create')">
+        Tạo mới
+      </button>
+<button class="px-3 py-1 rounded-full font-label-md text-label-md transition-all duration-200 text-on-surface-variant hover:text-on-surface" id="btnModeEdit" onclick="switchMode('edit')">
+        Chỉnh sửa
+      </button>
+</div>
+</div>
+<div class="px-margin space-y-space-lg pb-space-xl">
+<!-- Gentle Editorial Guidance Card -->
+<section class="bg-surface-container-low rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 w-24 h-24 rounded-full bg-secondary-fixed/30 pointer-events-none blur-xl"></div>
+<div class="flex items-start gap-space-sm relative z-10">
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-on-secondary-fixed text-[18px]">auto_awesome</span>
+</div>
+<div class="space-y-1">
+<p class="font-headline-sm text-headline-sm text-primary">Nguyên tắc chuẩn xác</p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Nhập chính xác họ tên trên giấy khai sinh và ngày sinh dương lịch để thuật toán Pythagoras tính toán trọn vẹn các chỉ số rung động cốt lõi.
+          </p>
+</div>
+</div>
+</section>
+<!-- Main Profile Form -->
+<form class="space-y-space-lg" id="profileForm" onsubmit="event.preventDefault(); handleFormSubmit();">
+<!-- Full Name Field -->
+<div class="space-y-space-xs">
+<label class="block font-label-sm text-label-sm text-outline tracking-wider uppercase" for="fullName">
+          Họ và tên khai sinh <span class="text-error">*</span>
+</label>
+<div class="relative">
+<input autocomplete="name" class="w-full h-[54px] px-4 rounded-xl bg-surface-container-lowest font-body-lg text-body-lg text-on-surface placeholder:text-outline-variant outline-none shadow-sm focus:shadow-md transition-shadow" id="fullName" name="fullName" oninput="validateNameLive(this.value)" placeholder="Ví dụ: Nguyễn Thị Minh An" required="" type="text" value=""/>
+<div class="absolute right-4 top-1/2 -translate-y-1/2 flex items-center gap-1.5 pointer-events-none" id="nameIndicator">
+<span class="material-symbols-outlined text-outline-variant text-[20px]" id="nameIcon">badge</span>
+</div>
+</div>
+<!-- Contextual guidance / Validation tip -->
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5" id="nameFeedback">
+<span class="material-symbols-outlined text-[15px] text-secondary">info</span>
+          Gợi ý: Dùng đầy đủ chữ có dấu tiếng Việt, không dùng biệt danh hoặc tên viết tắt.
+        </p>
+</div>
+<!-- Date of Birth Selection (Gregorian) -->
+<div class="space-y-space-xs">
+<div class="flex items-center justify-between">
+<label class="block font-label-sm text-label-sm text-outline tracking-wider uppercase">
+            Ngày sinh dương lịch <span class="text-error">*</span>
+</label>
+<span class="font-label-sm text-label-sm text-secondary flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span> Dương lịch
+          </span>
+</div>
+<!-- Segmented 3-part Picker for flutter-style date entry -->
+<div class="grid grid-cols-3 gap-space-sm">
+<!-- Day -->
+<div class="relative bg-surface-container-lowest rounded-xl shadow-sm px-3 py-2 flex flex-col justify-center">
+<label class="font-label-sm text-[10px] text-outline uppercase tracking-wider" for="dobDay">Ngày</label>
+<select class="bg-transparent font-body-lg text-body-lg text-on-surface font-semibold outline-none py-1 cursor-pointer appearance-none" id="dobDay" onchange="calculateQuickMatrix()">
+<option disabled="" selected="" value="">--</option>
+<option value="01">01</option><option value="02">02</option><option value="03">03</option><option value="04">04</option><option value="05">05</option>
+<option value="06">06</option><option value="07">07</option><option value="08">08</option><option value="09">09</option><option value="10">10</option>
+<option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option>
+<option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option>
+<option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option>
+<option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option>
+<option value="31">31</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 bottom-3 text-outline-variant text-[16px] pointer-events-none">expand_more</span>
+</div>
+<!-- Month -->
+<div class="relative bg-surface-container-lowest rounded-xl shadow-sm px-3 py-2 flex flex-col justify-center">
+<label class="font-label-sm text-[10px] text-outline uppercase tracking-wider" for="dobMonth">Tháng</label>
+<select class="bg-transparent font-body-lg text-body-lg text-on-surface font-semibold outline-none py-1 cursor-pointer appearance-none" id="dobMonth" onchange="calculateQuickMatrix()">
+<option disabled="" selected="" value="">--</option>
+<option value="01">Tháng 1</option><option value="02">Tháng 2</option><option value="03">Tháng 3</option>
+<option value="04">Tháng 4</option><option value="05">Tháng 5</option><option value="06">Tháng 6</option>
+<option value="07">Tháng 7</option><option value="08">Tháng 8</option><option value="09">Tháng 9</option>
+<option value="10">Tháng 10</option><option value="11">Tháng 11</option><option value="12">Tháng 12</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 bottom-3 text-outline-variant text-[16px] pointer-events-none">expand_more</span>
+</div>
+<!-- Year -->
+<div class="relative bg-surface-container-lowest rounded-xl shadow-sm px-3 py-2 flex flex-col justify-center">
+<label class="font-label-sm text-[10px] text-outline uppercase tracking-wider" for="dobYear">Năm</label>
+<select class="bg-transparent font-body-lg text-body-lg text-on-surface font-semibold outline-none py-1 cursor-pointer appearance-none" id="dobYear" onchange="calculateQuickMatrix()">
+<option disabled="" selected="" value="">----</option>
+<option value="2015">2015</option><option value="2010">2010</option><option value="2005">2005</option>
+<option value="2002">2002</option><option value="2001">2001</option><option value="2000">2000</option>
+<option value="1999">1999</option><option value="1998">1998</option><option value="1997">1997</option>
+<option value="1996">1996</option><option value="1995">1995</option><option value="1994">1994</option>
+<option value="1993">1993</option><option value="1992">1992</option><option value="1991">1991</option>
+<option value="1990">1990</option><option value="1989">1989</option><option value="1988">1988</option>
+<option value="1987">1987</option><option value="1986">1986</option><option value="1985">1985</option>
+<option value="1980">1980</option><option value="1975">1975</option><option value="1970">1970</option>
+</select>
+<span class="material-symbols-outlined absolute right-2.5 bottom-3 text-outline-variant text-[16px] pointer-events-none">expand_more</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-outline">
+          Nếu trên giấy tờ ghi năm sinh âm lịch, vui lòng quy đổi sang lịch dương trước khi nhập.
+        </p>
+</div>
+<!-- Gender / Salutation Selector -->
+<div class="space-y-space-xs">
+<label class="block font-label-sm text-label-sm text-outline tracking-wider uppercase">
+          Danh xưng / Thể hiện
+        </label>
+<div class="grid grid-cols-3 gap-space-sm" role="radiogroup">
+<label class="gender-pill cursor-pointer">
+<input checked="" class="peer sr-only" name="gender" type="radio" value="female"/>
+<div class="h-[46px] rounded-xl bg-surface-container flex items-center justify-center gap-2 px-3 peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">female</span>
+<span class="font-label-md text-label-md">Nữ</span>
+</div>
+</label>
+<label class="gender-pill cursor-pointer">
+<input class="peer sr-only" name="gender" type="radio" value="male"/>
+<div class="h-[46px] rounded-xl bg-surface-container flex items-center justify-center gap-2 px-3 peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">male</span>
+<span class="font-label-md text-label-md">Nam</span>
+</div>
+</label>
+<label class="gender-pill cursor-pointer">
+<input class="peer sr-only" name="gender" type="radio" value="other"/>
+<div class="h-[46px] rounded-xl bg-surface-container flex items-center justify-center gap-2 px-3 peer-checked:bg-primary peer-checked:text-on-primary text-on-surface-variant transition-colors shadow-sm">
+<span class="material-symbols-outlined text-[18px]">diversity_1</span>
+<span class="font-label-md text-label-md">Khác</span>
+</div>
+</label>
+</div>
+</div>
+<!-- Interactive Mini Preview: Pythagorean Vibe Pill -->
+<div class="hidden bg-surface-container-high rounded-xl p-space-md transition-all duration-300" id="vibeCard">
+<div class="flex items-center justify-between">
+<div class="space-y-0.5">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Xem trước số chủ đạo</span>
+<p class="font-body-md text-body-md text-on-surface font-medium" id="lifePathPreviewText">Đang tính toán nhịp số...</p>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center">
+<span class="font-display-numeral-mobile text-[26px] text-primary" id="lifePathNumeral">--</span>
+</div>
+</div>
+</div>
+<!-- Local Device Storage Guarantee & Toggle -->
+<div class="bg-surface-container-low rounded-xl p-space-md space-y-space-sm">
+<label class="flex items-start gap-space-sm cursor-pointer select-none">
+<div class="relative flex items-center pt-0.5">
+<input checked="" class="w-5 h-5 rounded-md text-primary bg-surface-container-lowest accent-primary focus:ring-0 cursor-pointer" id="localStorageCheck" type="checkbox"/>
+</div>
+<div class="space-y-0.5">
+<span class="font-body-md text-body-md text-on-surface font-medium block">Lưu hồ sơ an toàn vào bộ nhớ máy</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant block">
+              Cho phép truy cập tức thì các bản đồ trực giác mà không cần nhập lại thông tin.
+            </span>
+</div>
+</label>
+</div>
+<!-- Trust Commitment Banner -->
+<div class="rounded-xl p-space-md bg-surface-container flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[22px] shrink-0 mt-0.5" style="font-variation-settings: 'FILL' 1;">
+          verified_user
+        </span>
+<div class="space-y-1">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Bảo mật nguyên tắc tuyệt đối</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+            Dữ liệu hồ sơ được lưu cục bộ trên thiết bị của bạn. Tên và ngày sinh chỉ được gửi bảo mật tới dịch vụ tính toán và không bao giờ chia sẻ cho bên thứ ba.
+          </p>
+</div>
+</div>
+<!-- Primary & Secondary Actions Container -->
+<div class="pt-space-xs space-y-space-sm">
+<!-- Main CTA -->
+<button class="w-full h-[52px] rounded-xl bg-primary text-on-primary font-body-lg text-body-lg font-medium tracking-wide shadow-md active:scale-[0.98] transition-all flex items-center justify-center gap-2" id="btnSubmitCta" type="submit">
+<span class="material-symbols-outlined text-[20px]" id="btnIcon">compass_calibration</span>
+<span id="btnCtaText">Khám phá bản thân</span>
+</button>
+<!-- Edit-Mode Exclusive Action: Danger/Cancel Row -->
+<div class="hidden grid-cols-2 gap-space-sm pt-space-xs" id="editModeActions">
+<button class="w-full h-[48px] rounded-xl bg-surface-container font-label-md text-label-md text-on-surface hover:bg-surface-container-high transition-colors flex items-center justify-center gap-1.5" onclick="history.back()" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+<span>Hủy bỏ</span>
+</button>
+<button class="w-full h-[48px] rounded-xl bg-error-container text-on-error-container font-label-md text-label-md hover:opacity-90 transition-opacity flex items-center justify-center gap-1.5" onclick="openDeleteConfirmation()" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_forever</span>
+<span>Xóa hồ sơ này</span>
+</button>
+</div>
+</div>
+</form>
+</div>
+<!-- Confirmation Modal Bottom Sheet for Delete Action -->
+<div class="fixed inset-0 z-50 bg-on-surface/40 backdrop-blur-sm hidden items-end justify-center p-4 transition-opacity duration-300" id="deleteModal">
+<div class="w-full max-w-sm bg-surface-container-lowest rounded-2xl p-space-lg space-y-space-md shadow-2xl">
+<div class="w-12 h-12 rounded-full bg-error-container text-error flex items-center justify-center mx-auto">
+<span class="material-symbols-outlined text-[24px]">warning</span>
+</div>
+<div class="text-center space-y-1">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Xóa hồ sơ cá nhân?</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Toàn bộ luận giải Pythagoras, chu kỳ năm cá nhân và ghi chú chiêm nghiệm cục bộ sẽ bị gỡ bỏ khỏi máy.
+        </p>
+</div>
+<div class="space-y-space-xs pt-space-xs">
+<button class="w-full h-[48px] rounded-xl bg-error text-on-error font-label-md text-label-md font-semibold tracking-wide shadow-sm" onclick="confirmDeleteProfile()" type="button">
+          Xác nhận xóa hoàn toàn
+        </button>
+<button class="w-full h-[48px] rounded-xl bg-surface-container font-label-md text-label-md text-on-surface hover:bg-surface-container-high transition-colors" onclick="closeDeleteConfirmation()" type="button">
+          Giữ lại hồ sơ
+        </button>
+</div>
+</div>
+</div>
+<!-- Notification Toast -->
+<div class="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-full font-label-md text-label-md shadow-lg opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-2" id="toastNotification">
+<span class="material-symbols-outlined text-secondary-fixed text-[18px]">check_circle</span>
+<span id="toastMessage">Đã lưu hồ sơ thành công</span>
+</div>
+</div>
+<script>
+  let currentMode = 'create';
+
+  function switchMode(mode) {
+    currentMode = mode;
+    const btnCreate = document.getElementById('btnModeCreate');
+    const btnEdit = document.getElementById('btnModeEdit');
+    const editActions = document.getElementById('editModeActions');
+    const ctaText = document.getElementById('btnCtaText');
+    const ctaIcon = document.getElementById('btnIcon');
+    const nameInput = document.getElementById('fullName');
+    const daySelect = document.getElementById('dobDay');
+    const monthSelect = document.getElementById('dobMonth');
+    const yearSelect = document.getElementById('dobYear');
+
+    if (mode === 'edit') {
+      btnEdit.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      btnEdit.classList.remove('text-on-surface-variant');
+      btnCreate.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      btnCreate.classList.add('text-on-surface-variant');
+
+      editActions.classList.remove('hidden');
+      editActions.classList.add('grid');
+      ctaText.textContent = 'Cập nhật hồ sơ';
+      ctaIcon.textContent = 'sync_saved_locally';
+
+      // Prepopulate mock data for edit demonstration
+      nameInput.value = 'Lê Hoàng Minh';
+      daySelect.value = '18';
+      monthSelect.value = '08';
+      yearSelect.value = '1995';
+      calculateQuickMatrix();
+    } else {
+      btnCreate.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      btnCreate.classList.remove('text-on-surface-variant');
+      btnEdit.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+      btnEdit.classList.add('text-on-surface-variant');
+
+      editActions.classList.add('hidden');
+      editActions.classList.remove('grid');
+      ctaText.textContent = 'Khám phá bản thân';
+      ctaIcon.textContent = 'compass_calibration';
+
+      // Clear for new profile
+      nameInput.value = '';
+      daySelect.value = '';
+      monthSelect.value = '';
+      yearSelect.value = '';
+      document.getElementById('vibeCard').classList.add('hidden');
+    }
+    validateNameLive(nameInput.value);
+  }
+
+  function validateNameLive(val) {
+    const feedback = document.getElementById('nameFeedback');
+    const icon = document.getElementById('nameIcon');
+    const trimmed = val.trim();
+
+    if (!trimmed) {
+      feedback.innerHTML = '<span class="material-symbols-outlined text-[15px] text-secondary">info</span> Gợi ý: Dùng đầy đủ chữ có dấu tiếng Việt, không dùng biệt danh.';
+      feedback.className = 'font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5';
+      icon.textContent = 'badge';
+      icon.className = 'material-symbols-outlined text-outline-variant text-[20px]';
+      return;
+    }
+
+    // Check for Vietnamese diacritics
+    const hasDiacritics = /[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]/i.test(trimmed);
+
+    if (hasDiacritics && trimmed.split(' ').length >= 2) {
+      feedback.innerHTML = '<span class="material-symbols-outlined text-[15px] text-secondary">check</span> Định dạng họ tên chuẩn xác cho bảng mã Pythagoras.';
+      feedback.className = 'font-body-sm text-body-sm text-secondary flex items-center gap-1.5';
+      icon.textContent = 'check_circle';
+      icon.className = 'material-symbols-outlined text-secondary text-[20px]';
+    } else {
+      feedback.innerHTML = '<span class="material-symbols-outlined text-[15px] text-outline">mode_edit</span> Nên nhập cả họ và tên có dấu để phát huy chỉ số Linh Hồn & Sứ Mệnh.';
+      feedback.className = 'font-body-sm text-body-sm text-outline flex items-center gap-1.5';
+      icon.textContent = 'edit';
+      icon.className = 'material-symbols-outlined text-outline-variant text-[20px]';
+    }
+  }
+
+  function calculateQuickMatrix() {
+    const d = document.getElementById('dobDay').value;
+    const m = document.getElementById('dobMonth').value;
+    const y = document.getElementById('dobYear').value;
+    const vibeCard = document.getElementById('vibeCard');
+    const numeralEl = document.getElementById('lifePathNumeral');
+    const previewText = document.getElementById('lifePathPreviewText');
+
+    if (!d || !m || !y) {
+      vibeCard.classList.add('hidden');
+      return;
+    }
+
+    // Pythagoras Single Digit Life Path Calculation (with master numbers 11, 22)
+    const digits = (d + m + y).split('').map(Number);
+    let total = digits.reduce((acc, curr) => acc + curr, 0);
+
+    function reduceNum(n) {
+      if (n === 11 || n === 22 || n <= 9) return n;
+      const sum = String(n).split('').map(Number).reduce((a, b) => a + b, 0);
+      return sum > 9 && sum !== 11 && sum !== 22 ? reduceNum(sum) : sum;
+    }
+
+    const lifePath = reduceNum(total);
+
+    const descriptions = {
+      2: 'Sứ giả hòa bình & thấu cảm',
+      3: 'Năng lượng sáng tạo & ngôn từ',
+      4: 'Cấu trúc vững chãi & thực tiễn',
+      5: 'Tự do khai phóng & trải nghiệm',
+      6: 'Trái tim bảo bọc & tình thương',
+      7: 'Trực giác triết học & chiêm nghiệm',
+      8: 'Bản lĩnh độc lập & kiến thiết',
+      9: 'Nhân văn vị tha & lý tưởng cao',
+      10: 'Khả năng thích ứng & linh hoạt cao',
+      11: 'Bậc thầy trực giác tâm linh',
+      22: 'Kiến trúc sư của tương lai'
+    };
+
+    numeralEl.textContent = lifePath;
+    previewText.textContent = descriptions[lifePath] || 'Đường đời rung động cao';
+    vibeCard.classList.remove('hidden');
+  }
+
+  function handleFormSubmit() {
+    const name = document.getElementById('fullName').value.trim();
+    const d = document.getElementById('dobDay').value;
+    const m = document.getElementById('dobMonth').value;
+    const y = document.getElementById('dobYear').value;
+
+    if (!name || !d || !m || !y) {
+      showToast('Vui lòng hoàn tất họ tên và ngày sinh');
+      return;
+    }
+
+    const msg = currentMode === 'edit' ? 'Đã lưu thay đổi hồ sơ' : 'Khởi tạo hồ sơ Pythagoras thành công';
+    showToast(msg);
+  }
+
+  function openDeleteConfirmation() {
+    const modal = document.getElementById('deleteModal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeDeleteConfirmation() {
+    const modal = document.getElementById('deleteModal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+  }
+
+  function confirmDeleteProfile() {
+    closeDeleteConfirmation();
+    showToast('Đã xóa hồ sơ an toàn khỏi máy');
+    setTimeout(() => {
+      switchMode('create');
+    }, 600);
+  }
+
+  function showToast(message) {
+    const toast = document.getElementById('toastNotification');
+    const msgEl = document.getElementById('toastMessage');
+    msgEl.textContent = message;
+    toast.classList.remove('opacity-0', 'pointer-events-none');
+    toast.classList.add('opacity-100');
+
+    setTimeout(() => {
+      toast.classList.remove('opacity-100');
+      toast.classList.add('opacity-0', 'pointer-events-none');
+    }, 2400);
+  }
+</script></main></body></html>
+
+<!-- V1-04: Phân tích (Tab 2) - Pilogy V1 -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline-variant": "#ccc4cd", "background": "#fef7ff", "primary-fixed": "#f0dbff", "outline": "#7b757d", "surface-container-highest": "#e8dfed", "on-secondary-fixed": "#261900", "inverse-primary": "#d4bfe3", "inverse-surface": "#332f39", "tertiary-container": "#4b4742", "on-tertiary-container": "#bbb5af", "tertiary": "#34312c", "inverse-on-surface": "#f6eefc", "on-tertiary-fixed-variant": "#4a4641", "error": "#ba1a1a", "surface-variant": "#e8dfed", "surface": "#fef7ff", "on-error": "#ffffff", "on-tertiary-fixed": "#1e1b17", "on-secondary": "#ffffff", "on-surface": "#1e1a23", "surface-container-low": "#f9f1ff", "on-surface-variant": "#4a454c", "secondary-fixed-dim": "#e4c284", "on-primary-container": "#c3aed2", "surface-bright": "#fef7ff", "primary-fixed-dim": "#d4bfe3", "on-error-container": "#93000a", "surface-dim": "#dfd7e5", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#ccc5bf", "surface-tint": "#695877", "tertiary-fixed": "#e8e1da", "on-primary": "#ffffff", "surface-container": "#f3ebf9", "on-primary-fixed-variant": "#50405e", "secondary-container": "#ffdb9b", "on-secondary-fixed-variant": "#5a4311", "on-background": "#1e1a23", "secondary-fixed": "#ffdea5", "on-primary-fixed": "#231531", "on-secondary-container": "#795f2b", "secondary": "#745a27", "primary-container": "#51415f", "surface-container-high": "#eee5f3", "primary": "#3a2b47" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xl": "2.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, fontFamily: { "label-md": ["Inter"], "body-md": ["Inter"], "display-numeral": ["Playfair Display"], "display-numeral-mobile": ["Playfair Display"], "body-lg": ["Inter"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "body-sm": ["Inter"], "headline-sm": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, fontSize: { "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,44px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary tracking-tight">Pilogy</span><span class="h-4 w-px bg-outline-variant/40"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">V1</span></div><div class="flex items-center gap-space-sm"><button class="h-9 px-3 rounded-full bg-surface-container flex items-center gap-1.5 text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[16px] text-secondary">account_circle</span><span class="font-label-sm text-label-sm max-w-[84px] truncate">Hồ sơ chính</span><span class="material-symbols-outlined text-[14px]">expand_more</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-24"><div class="flex flex-col w-full px-margin pb-6 gap-space-lg">
+<!-- Profile & Sync Status Banner -->
+<section class="flex flex-col gap-space-sm pt-space-md">
+<div class="flex items-center justify-between">
+<div class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Pythagoras V1</span>
+</div>
+<button aria-label="Làm mới dữ liệu" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface hover:bg-surface-container-highest transition-colors active:scale-95" id="sync-btn">
+<span class="material-symbols-outlined text-[15px] text-secondary transition-transform duration-700" id="sync-icon">sync</span>
+<span class="font-label-sm text-label-sm text-secondary font-semibold" id="sync-text">Đã đồng bộ</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-xs mt-1">
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Bản đồ Thần số học</h1>
+<div class="flex items-center gap-2 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px] text-secondary">person_pin</span>
+<span class="font-body-md text-body-md font-medium text-on-surface">Nguyễn Minh Anh</span>
+<span class="text-outline-variant font-light">•</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">15/08/1995</span>
+</div>
+</div>
+</section>
+<!-- Quick Access Hub (Biểu đồ ngày sinh & Chu kỳ cá nhân) -->
+<section class="grid grid-cols-2 gap-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.98]" onclick="openModal('Biểu đồ Ngày sinh (Pythagoras)', 'Lưới ma trận 3x3 biểu thị 9 trục năng lượng bẩm sinh dựa trên ngày 15/08/1995. Bạn sở hữu trục Trí tuệ 3-6-9 sáng rực và mũi tên Quyết tâm kiên định.')">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[22px]">grid_4x4</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[18px]">north_east</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Biểu đồ ngày sinh</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1">Ma trận 3x3 Pythagoras</span>
+</div>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex flex-col justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.98]" onclick="openModal('Chu kỳ cá nhân (Năm số 7)', 'Năm 2024 tương ứng với năm cá nhân số 7: Giai đoạn của sự chiêm nghiệm, nâng cao nội lực trí tuệ, thanh lọc thói quen và tái tạo năng lượng chiều sâu.')">
+<div class="flex items-start justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[22px]">timelapse</span>
+</div>
+<span class="material-symbols-outlined text-secondary text-[18px]">north_east</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary">Chu kỳ cá nhân</span>
+<span class="font-body-sm text-body-sm text-secondary font-medium">Năm số 7 • Nội tâm sâu</span>
+</div>
+</div>
+</section>
+<!-- Editorial Highlight Insight -->
+<section class="p-5 rounded-2xl bg-primary text-on-primary shadow-sm flex flex-col gap-3 relative overflow-hidden">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[18px] text-secondary-fixed">auto_awesome</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary-fixed">Tổng luận năng lượng chính</span>
+</div>
+<p class="font-headline-sm text-headline-sm text-on-primary leading-snug">
+      “Sự kết hợp giữa Đường đời 7 và Linh hồn 8 tạo nên một người kiến thiết trầm tĩnh với trực giác sắc sảo và ý chí độc lập phi thường.”
+    </p>
+<div class="flex items-center justify-between pt-2">
+<span class="font-body-sm text-body-sm text-on-primary-container">Độ hòa hợp trường phái: 94%</span>
+<span class="inline-flex items-center gap-1 font-label-md text-label-md text-secondary-fixed">
+        Xem phân tích sâu <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+</section>
+<!-- Group 1: Core Numbers (Chỉ số Cốt lõi) -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-end justify-between">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Trọng tâm bản mệnh</span>
+<h2 class="font-headline-md text-headline-md text-primary">Nhóm Chỉ số Cốt lõi</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">4 chỉ số</span>
+</div>
+<div class="flex flex-col gap-space-sm">
+<!-- Đường đời (7) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Đường đời: Số 7', 'Đại diện cho bậc thầy tri thức, tính triết lý, khả năng quan sát độc lập và năng lực chiêm nghiệm quy luật cuộc đời. Bạn tiếp nhận bài học lớn thông qua trải nghiệm thực tế và sự trầm tĩnh nội tâm.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-primary">7</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Đường đời</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Cốt tủy</span>
+</div>
+<span class="font-body-md text-body-md text-on-surface line-clamp-1">Người tìm kiếm chân lý &amp; Trí tuệ tĩnh lặng</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Năng lượng: Khám phá, trải nghiệm sâu, tự chủ tư duy</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-secondary shrink-0 pl-1">
+<span class="font-label-sm text-label-sm font-semibold hidden sm:inline">Chi tiết</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</div>
+<!-- Linh hồn (8) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Linh hồn: Số 8', 'Khao khát thầm kín bên trong là sự độc lập tài chính, quyền tự quyết tuyệt đối và kiến tạo những thành tựu hữu hình bền vững. Nội lực mạnh mẽ thúc đẩy bạn xây dựng trật tự và hiệu suất.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-secondary">8</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Linh hồn</span>
+<span class="font-body-md text-body-md text-on-surface line-clamp-1">Khao khát độc lập, tự chủ &amp; Hiệu quả</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Năng lượng: Ý chí mạnh mẽ, trật tự, hiện thực hóa mục tiêu</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-secondary shrink-0 pl-1">
+<span class="font-label-sm text-label-sm font-semibold hidden sm:inline">Chi tiết</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</div>
+<!-- Nhân cách (6) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Nhân cách: Số 6', 'Ấn tượng đầu tiên người khác cảm nhận từ bạn là sự ấm áp, chu đáo, tinh tế và đáng tin cậy. Bạn luôn toát lên khí chất của một người biết che chở, coi trọng gia đình và vẻ đẹp thẩm mỹ hài hòa.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-primary">6</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Nhân cách</span>
+<span class="font-body-md text-body-md text-on-surface line-clamp-1">Gương mặt chu toàn, ấm áp &amp; Thẩm mỹ</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Năng lượng: Che chở, tinh tế, thu hút lòng tin yêu</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-secondary shrink-0 pl-1">
+<span class="font-label-sm text-label-sm font-semibold hidden sm:inline">Chi tiết</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</div>
+<!-- Sứ mệnh (1) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Sứ mệnh: Số 1', 'Đích đến cuộc đời của bạn là trở thành người tiên phong dẫn dắt, tự tạo ra con đường riêng và khẳng định vị thế cá nhân. Bạn truyền cảm hứng cho cộng đồng bằng lòng quả cảm và khả năng tự thân vận động kiên cường.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-primary">1</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Sứ mệnh</span>
+<span class="font-body-md text-body-md text-on-surface line-clamp-1">Người tiên phong, lãnh đạo &amp; Tự lực</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Năng lượng: Quyết đoán, khởi xướng, khẳng định dấu ấn</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-secondary shrink-0 pl-1">
+<span class="font-label-sm text-label-sm font-semibold hidden sm:inline">Chi tiết</span>
+<span class="material-symbols-outlined text-[20px]">chevron_right</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Group 2: Supporting Numbers (Chỉ số Bổ trợ) -->
+<section class="flex flex-col gap-space-md">
+<div class="flex items-end justify-between">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Tương tác môi trường &amp; Giai đoạn</span>
+<h2 class="font-headline-md text-headline-md text-primary">Nhóm Chỉ số Bổ trợ</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">3 chỉ số</span>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Ngày sinh (6) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Ngày sinh: Số 6 (15 =&gt; 1+5=6)', 'Tài năng bẩm sinh thể hiện ở sự khéo léo trong giao tiếp, khả năng chăm sóc và giải quyết xung đột bằng tình yêu thương và mắt thẩm mỹ bẩm sinh.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary">6</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Ngày sinh</span>
+<span class="font-body-sm text-body-sm text-on-surface">Tài năng bẩm sinh: Sáng tạo nghệ thuật, gắn kết sẻ chia</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold whitespace-nowrap">Chi tiết →</span>
+</div>
+<!-- Thái độ (5) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Thái độ: Số 5 (15 + 08 = 23 =&gt; 5)', 'Cách bạn phản ứng tức thì với các biến cố ngoại cảnh là sự linh hoạt, cởi mở, không ngại đổi mới và luôn tìm kiếm góc nhìn tích cực, tự do giải phóng khỏi lối mòn.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-secondary">5</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Thái độ</span>
+<span class="font-body-sm text-body-sm text-on-surface">Phản ứng tình huống: Linh hoạt, thích ứng, khao khát tự do</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold whitespace-nowrap">Chi tiết →</span>
+</div>
+<!-- Trưởng thành (8) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Con số Trưởng thành: Số 8 (7 + 1 = 8)', 'Khi bước vào độ tuổi từ 35-40, năng lượng số 8 sẽ bùng phát rõ nét nhất, đưa bạn đến đỉnh cao về năng lực quản trị, thịnh vượng tài chính và sự ổn định quyền lực.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary">8</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Con số Trưởng thành</span>
+<span class="font-body-sm text-body-sm text-on-surface">Sau 35 tuổi: Thành tựu vật chất vững vàng, quản trị quyền uy</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold whitespace-nowrap">Chi tiết →</span>
+</div>
+</div>
+</section>
+<!-- Group 3: Subconscious, Karmic & Spiritual (Tiềm thức & Nghiệp quả) -->
+<section class="flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Tầng sâu nội tâm &amp; Nghiệp nợ</span>
+<h2 class="font-headline-md text-headline-md text-primary">Chỉ số Tiềm thức &amp; Tâm linh</h2>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Cân bằng (Số 4) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Chỉ số Cân bằng: Số 4', 'Được tính từ chữ cái đầu của các từ trong họ tên. Khi gặp sóng gió hoặc mất thăng bằng, bạn cần dựa vào tính kỷ luật, lập kế hoạch chi tiết, sắp xếp môi trường sống ngăn nắp để phục hồi sự vững chãi.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary">4</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Chỉ số Cân bằng</span>
+<span class="font-body-sm text-body-sm text-on-surface line-clamp-1">Kỷ luật, thiết lập trật tự để lấy lại bình yên</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold shrink-0">Chi tiết →</span>
+</div>
+<!-- Nợ nghiệp (Karmic Debt) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Chỉ số Nợ nghiệp: Không có (0/4)', 'Bản tính và biểu đồ ngày sinh của bạn không mang 4 mã nợ nghiệp cổ điển (13/4, 14/5, 16/7, 19/1). Đây là biểu hiện của trường năng lượng sạch, tự do phát triển tiềm năng mà không bị cản trở bởi gánh nặng tiền kiếp.')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Chỉ số Nợ nghiệp</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-highest text-secondary font-label-sm text-label-sm">Thanh khiết</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface line-clamp-1">Không mang nợ nghiệp (13/4, 14/5, 16/7, 19/1)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold shrink-0">Chi tiết →</span>
+</div>
+<!-- Chỉ số Thiếu (Karmic Lesson: 2 & 7) -->
+<div class="p-space-md rounded-xl bg-surface-container-lowest shadow-sm flex items-center justify-between gap-space-md cursor-pointer hover:shadow-md transition-all active:scale-[0.99]" onclick="openModal('Bài học Nghiệp (Chỉ số Thiếu): Số 2 &amp; 7', 'Trong các con số của họ tên bạn thiếu vắng chữ cái mang năng lượng 2 và 7. Bạn cần chủ động trau dồi khả năng kiên nhẫn lắng nghe đối phương (thiếu 2) và dành thời gian tu dưỡng nội tâm, tránh hoài nghi thái quá (thiếu 7).')">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="w-12 h-12 rounded-lg bg-secondary-container flex items-center justify-center shrink-0">
+<span class="font-headline-sm text-headline-sm text-on-secondary-container">2, 7</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-headline-sm text-headline-sm text-primary truncate">Chỉ số Thiếu (Karmic Lesson)</span>
+<span class="font-body-sm text-body-sm text-on-surface line-clamp-1">Bài học học hỏi: Kiên nhẫn kết nối (2) &amp; Tĩnh tâm (7)</span>
+</div>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold shrink-0">Chi tiết →</span>
+</div>
+</div>
+</section>
+<!-- Editorial Note / Wisdom Quote -->
+<section class="p-space-md rounded-xl bg-surface-container flex items-start gap-space-md">
+<span class="material-symbols-outlined text-secondary text-[24px] shrink-0 mt-0.5">menu_book</span>
+<div class="flex flex-col gap-1">
+<span class="font-headline-sm text-headline-sm text-primary">Lời nhắc nhở Pythagoras</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+        Các con số không định đoạt số phận cố định, mà phản ánh dòng chảy rung động tự nhiên. Khi hiểu rõ bản đồ này, bạn là người làm chủ tay lái trên hành trình tiến hóa của tâm thức.
+      </p>
+</div>
+</section>
+<!-- AdMob Adaptive Banner Integration Placeholder -->
+<section aria-label="Quảng cáo tài trợ" class="w-full flex flex-col items-center justify-center my-1">
+<div class="w-full max-w-[360px] h-[50px] bg-surface-container-highest rounded-lg flex items-center justify-between px-3 relative overflow-hidden shadow-inner">
+<div class="flex items-center gap-2">
+<span class="px-1.5 py-0.5 rounded bg-outline-variant/60 font-label-sm text-label-sm text-on-surface-variant font-bold text-[9px] uppercase tracking-wider">Ad</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate max-w-[210px]">Pilogy Premium: Khám phá trọn vẹn 36 năm chu kỳ</span>
+</div>
+<button class="px-2.5 py-1 rounded bg-primary text-on-primary font-label-sm text-label-sm shrink-0 active:scale-95 transition-transform">
+        Mở khóa
+      </button>
+</div>
+<span class="font-label-sm text-label-sm text-outline-variant mt-1">Google AdMob Adaptive Banner (360x50)</span>
+</section>
+<!-- Modal Bottom Sheet Backdrop & Container -->
+<div class="fixed inset-0 z-50 bg-on-surface/40 backdrop-blur-sm hidden opacity-0 transition-opacity duration-300 flex items-end justify-center" id="modal-scrim" onclick="closeModal()">
+<div class="w-full max-w-lg bg-surface-container-lowest rounded-t-3xl p-margin flex flex-col gap-space-md shadow-2xl transform translate-y-full transition-transform duration-300 max-h-[751px] overflow-y-auto" id="modal-sheet" onclick="event.stopPropagation()">
+<div class="w-12 h-1.5 bg-outline-variant rounded-full mx-auto self-center mb-1"></div>
+<div class="flex items-start justify-between">
+<h3 class="font-headline-md text-headline-md text-primary" id="modal-title">Tiêu đề chi tiết</h3>
+<button class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface-variant" onclick="closeModal()">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="p-space-md rounded-xl bg-surface-container-low text-on-surface">
+<p class="font-body-md text-body-md text-on-surface leading-relaxed" id="modal-content">
+          Nội dung luận giải chi tiết theo hệ tư tưởng toán học Pythagoras.
+        </p>
+</div>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider font-semibold">Lời khuyên ứng dụng:</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Kết hợp con số này cùng các trục biểu đồ ngày sinh để phát huy tối đa điểm mạnh, đồng thời bù đắp những thiếu hụt năng lượng qua chế độ học tập và tĩnh tại.
+        </p>
+</div>
+<button class="w-full py-3.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-medium active:bg-primary-container transition-colors mt-2" onclick="closeModal()">
+        Đã hiểu luận giải
+      </button>
+</div>
+</div>
+</div>
+<script>
+  // Dynamic Sync micro-interaction
+  const syncBtn = document.getElementById('sync-btn');
+  const syncIcon = document.getElementById('sync-icon');
+  const syncText = document.getElementById('sync-text');
+
+  if (syncBtn) {
+    syncBtn.addEventListener('click', () => {
+      syncIcon.classList.add('rotate-180');
+      syncText.textContent = 'Đang đồng bộ...';
+      setTimeout(() => {
+        syncIcon.classList.remove('rotate-180');
+        syncText.textContent = 'Đã cập nhật';
+        setTimeout(() => {
+          syncText.textContent = 'Đã đồng bộ';
+        }, 1500);
+      }, 700);
+    });
+  }
+
+  // Modal Sheet Handling
+  function openModal(title, content) {
+    const scrim = document.getElementById('modal-scrim');
+    const sheet = document.getElementById('modal-sheet');
+    const modalTitle = document.getElementById('modal-title');
+    const modalContent = document.getElementById('modal-content');
+
+    if (!scrim || !sheet) return;
+
+    modalTitle.textContent = title;
+    modalContent.textContent = content;
+
+    scrim.classList.remove('hidden');
+    requestAnimationFrame(() => {
+      scrim.classList.remove('opacity-0');
+      scrim.classList.add('opacity-100');
+      sheet.classList.remove('translate-y-full');
+      sheet.classList.add('translate-y-0');
+    });
+  }
+
+  function closeModal() {
+    const scrim = document.getElementById('modal-scrim');
+    const sheet = document.getElementById('modal-sheet');
+
+    if (!scrim || !sheet) return;
+
+    sheet.classList.remove('translate-y-0');
+    sheet.classList.add('translate-y-full');
+    scrim.classList.remove('opacity-100');
+    scrim.classList.add('opacity-0');
+
+    setTimeout(() => {
+      scrim.classList.add('hidden');
+    }, 300);
+  }
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(81,65,95,0.05)]" data-active-classes="text-primary font-semibold"><div class="h-16 px-space-md flex items-center justify-around"><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="kham-pha" href="#"><span class="material-symbols-outlined text-[22px]">explore</span><span class="font-label-sm text-label-sm">Khám phá</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="phan-tich" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm">Phân tích</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="ho-so" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm">Hồ sơ</span></a></div></nav></body></html>
+
+<!-- V1-08: Quản lý hồ sơ - Thần số học Pilogy -->
+<!DOCTYPE html><html class="h-full" lang="vi"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><title>Pilogy Numerology</title><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "background": "#fef7ff", "on-secondary": "#ffffff", "on-primary-fixed": "#231531", "tertiary": "#34312c", "on-error": "#ffffff", "primary": "#3a2b47", "outline": "#7b757d", "surface-container-lowest": "#ffffff", "surface": "#fef7ff", "on-error-container": "#93000a", "on-tertiary-container": "#bbb5af", "on-tertiary": "#ffffff", "surface-container-high": "#eee5f3", "secondary-fixed": "#ffdea5", "on-tertiary-fixed": "#1e1b17", "on-primary-container": "#c3aed2", "on-primary-fixed-variant": "#50405e", "error": "#ba1a1a", "surface-dim": "#dfd7e5", "inverse-on-surface": "#f6eefc", "inverse-primary": "#d4bfe3", "secondary-container": "#ffdb9b", "surface-variant": "#e8dfed", "on-surface-variant": "#4a454c", "on-secondary-fixed-variant": "#5a4311", "on-surface": "#1e1a23", "on-secondary-container": "#795f2b", "on-secondary-fixed": "#261900", "secondary-fixed-dim": "#e4c284", "outline-variant": "#ccc4cd", "surface-container": "#f3ebf9", "primary-fixed": "#f0dbff", "tertiary-container": "#4b4742", "surface-tint": "#695877", "surface-container-low": "#f9f1ff", "inverse-surface": "#332f39", "tertiary-fixed-dim": "#ccc5bf", "primary-container": "#51415f", "on-background": "#1e1a23", "surface-bright": "#fef7ff", "secondary": "#745a27", "tertiary-fixed": "#e8e1da", "on-tertiary-fixed-variant": "#4a4641", "surface-container-highest": "#e8dfed", "primary-fixed-dim": "#d4bfe3", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, "fontFamily": { "label-sm": ["Inter"], "body-sm": ["Inter"], "display-numeral-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "display-numeral": ["Playfair Display"], "label-md": ["Inter"], "headline-sm": ["Playfair Display"], "body-lg": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased flex flex-col min-h-full"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(81,65,95,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Hồ Sơ</span></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Subtitle & Context Header (Shell provides main fixed title) -->
+<div class="pt-space-md pb-space-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-md text-headline-md text-primary tracking-tight">Hồ sơ đã lưu</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">3 hồ sơ</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[16px] text-secondary">verified_user</span>
+      Lưu trữ cục bộ an toàn trên thiết bị của bạn
+    </p>
+</div>
+<!-- Active Profile Spotlight Card -->
+<div class="mt-space-md rounded-2xl bg-surface-container-lowest p-5 shadow-sm relative overflow-hidden">
+<!-- Subtle Golden Atmospheric Arc (Mathematical Harmony) -->
+<div class="absolute -right-8 -top-8 w-32 h-32 rounded-full bg-secondary-fixed/30 pointer-events-none blur-2xl"></div>
+<!-- Active Tag Header -->
+<div class="flex items-center justify-between pb-space-md">
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high">
+<span class="w-2 h-2 rounded-full bg-emerald-600 animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider">Hồ sơ chính đang chọn</span>
+</div>
+<button aria-label="Tùy chọn hồ sơ" class="w-8 h-8 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">more_vert</span>
+</button>
+</div>
+<!-- Primary Info Row -->
+<div class="flex items-start gap-space-md">
+<!-- Life Path Avatar Badge -->
+<div class="relative flex-shrink-0">
+<div class="w-16 h-16 rounded-2xl bg-primary flex flex-col items-center justify-center text-on-primary shadow-sm px-1 py-1.5 overflow-hidden"><span class="font-label-sm text-[9px] tracking-widest text-on-primary-container uppercase leading-tight text-center">Đường đời</span><span class="font-headline-md text-headline-md text-secondary-fixed leading-none mt-1 font-semibold">7</span></div>
+<div class="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-secondary text-on-secondary flex items-center justify-center shadow">
+<span class="material-symbols-outlined text-[12px]" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+</div>
+</div>
+<!-- Identity Meta -->
+<div class="flex-1 min-w-0">
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Nguyễn Minh Anh</h2>
+<div class="flex items-center gap-space-xs text-on-surface-variant mt-0.5">
+<span class="material-symbols-outlined text-[15px]">cake</span>
+<span class="font-body-md text-body-md">15/08/1995</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-secondary">Triết gia &amp; Thấu thị</span>
+</div>
+</div>
+</div>
+<!-- Quick Numerology Metrics Trio -->
+<div class="grid grid-cols-3 gap-2 mt-space-md p-3 rounded-xl bg-surface-container-low">
+<div class="flex flex-col items-center text-center p-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Đường đời</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold mt-0.5">7</span>
+</div>
+<div class="flex flex-col items-center text-center p-1.5 bg-surface-container-lowest rounded-lg shadow-sm">
+<span class="font-label-sm text-label-sm text-secondary uppercase font-semibold">Linh hồn</span>
+<span class="font-headline-sm text-headline-sm text-secondary font-semibold mt-0.5">8</span>
+</div>
+<div class="flex flex-col items-center text-center p-1.5">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase">Sứ mệnh</span>
+<span class="font-headline-sm text-headline-sm text-primary font-semibold mt-0.5">1</span>
+</div>
+</div>
+<!-- Active Profile Actions -->
+<div class="grid grid-cols-2 gap-space-sm mt-space-md pt-space-xs">
+<a class="h-11 px-4 rounded-xl bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-colors" data-path="ho-so-chinh-sua" href="#">
+<span class="material-symbols-outlined text-[18px]">edit</span>
+        Chỉnh sửa
+      </a>
+<a class="h-11 px-4 rounded-xl bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md flex items-center justify-center gap-1.5 shadow-sm transition-transform active:scale-[0.98]" data-path="phan-tich" href="#">
+<span class="material-symbols-outlined text-[18px]">auto_stories</span>
+        Xem phân tích
+      </a>
+</div>
+</div>
+<!-- Section: Other Saved Profiles -->
+<div class="mt-space-lg flex flex-col gap-space-sm">
+<div class="flex items-center justify-between px-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Danh sách hồ sơ khác (2)</span>
+<span class="font-label-sm text-label-sm text-outline">Chạm để đổi</span>
+</div>
+<!-- Profile Item 1: Trần Hoàng Nam -->
+<div class="profile-card rounded-2xl bg-surface-container-lowest p-4 shadow-sm flex flex-col gap-space-md transition-all hover:bg-surface-container-low" data-name="Trần Hoàng Nam">
+<div class="flex items-start gap-3">
+<!-- Number Badge -->
+<div class="w-13 h-13 rounded-xl bg-surface-container-high flex flex-col items-center justify-center text-primary flex-shrink-0 p-1 overflow-hidden"><span class="font-label-sm text-[9px] uppercase tracking-wider text-outline leading-tight">Số</span><span class="font-headline-sm text-headline-sm font-semibold leading-none mt-0.5">3</span></div>
+<!-- Details -->
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Trần Hoàng Nam</h3>
+<button aria-label="Xóa hồ sơ Trần Hoàng Nam" class="p-1 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" onclick="confirmDelete('Trần Hoàng Nam')" type="button">
+<span class="material-symbols-outlined text-[20px]">delete_outline</span>
+</button>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant mt-0.5">
+<span class="font-body-sm text-body-sm">24/03/1994</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">Sáng tạo &amp; Biểu đạt</span>
+</div>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="btn-select-profile flex-1 h-10 px-3 rounded-xl bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all" type="button">
+<span class="material-symbols-outlined text-[17px]">radio_button_unchecked</span>
+          Chọn hồ sơ này
+        </button>
+<a class="h-10 px-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" data-path="ho-so-chinh-sua" href="#">
+<span class="material-symbols-outlined text-[17px]">edit</span>
+          Sửa
+        </a>
+</div>
+</div>
+<!-- Profile Item 2: Lê Thu Trang -->
+<div class="profile-card rounded-2xl bg-surface-container-lowest p-4 shadow-sm flex flex-col gap-space-md transition-all hover:bg-surface-container-low" data-name="Lê Thu Trang">
+<div class="flex items-start gap-3">
+<!-- Master Number Badge -->
+<div class="w-13 h-13 rounded-xl bg-secondary-fixed flex flex-col items-center justify-center text-on-secondary-fixed flex-shrink-0 shadow-sm p-1 overflow-hidden"><span class="font-label-sm text-[9px] uppercase tracking-wider text-secondary leading-tight text-center truncate w-full">Bậc thầy</span><span class="font-headline-sm text-[16px] font-semibold leading-tight text-secondary mt-0.5">11/2</span></div>
+<!-- Details -->
+<div class="flex-1 min-w-0">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface truncate">Lê Thu Trang</h3>
+<button aria-label="Xóa hồ sơ Lê Thu Trang" class="p-1 rounded-lg text-outline hover:text-error hover:bg-error-container/40 transition-colors" onclick="confirmDelete('Lê Thu Trang')" type="button">
+<span class="material-symbols-outlined text-[20px]">delete_outline</span>
+</button>
+</div>
+<div class="flex items-center gap-2 text-on-surface-variant mt-0.5">
+<span class="font-body-sm text-body-sm">09/11/1998</span>
+<span class="text-outline-variant">•</span>
+<span class="font-body-sm text-body-sm text-secondary truncate">Trực giác &amp; Khai sáng</span>
+</div>
+</div>
+</div>
+<!-- Action Row -->
+<div class="flex items-center gap-space-sm pt-space-xs">
+<button class="btn-select-profile flex-1 h-10 px-3 rounded-xl bg-surface-container-high hover:bg-primary hover:text-on-primary text-primary font-label-md text-label-md flex items-center justify-center gap-1.5 transition-all" type="button">
+<span class="material-symbols-outlined text-[17px]">radio_button_unchecked</span>
+          Chọn hồ sơ này
+        </button>
+<a class="h-10 px-3.5 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface-variant font-label-md text-label-md flex items-center justify-center gap-1 transition-colors" data-path="ho-so-chinh-sua" href="#">
+<span class="material-symbols-outlined text-[17px]">edit</span>
+          Sửa
+        </a>
+</div>
+</div>
+</div>
+<!-- Primary CTA: Add New Profile -->
+<div class="mt-space-lg">
+<a class="w-full h-13 py-3.5 px-6 rounded-2xl bg-surface-container-highest hover:bg-surface-variant text-primary font-label-md text-label-md flex items-center justify-center gap-2 transition-all active:scale-[0.98]" data-path="ho-so-tao-moi" href="#">
+<span class="material-symbols-outlined text-[22px]">person_add</span>
+<span class="">+ Thêm hồ sơ mới</span>
+</a>
+</div>
+<!-- Local Storage Privacy Guarantee Card -->
+<div class="mt-space-lg p-4 rounded-2xl bg-surface-container-low flex items-start gap-3">
+<div class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-primary flex-shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[18px]">database</span>
+</div>
+<div class="flex-1">
+<span class="font-label-sm text-label-sm text-primary uppercase font-semibold tracking-wide">Bảo mật thiết bị</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+        Tất cả hồ sơ được lưu an toàn trong bộ nhớ máy (Local Database). Không cần đăng ký tài khoản hay mật khẩu.
+      </p>
+</div>
+</div>
+<!-- Quick Settings & Data Management Links -->
+<div class="mt-space-lg flex flex-col gap-1 rounded-2xl bg-surface-container-lowest p-2 shadow-sm">
+<a class="flex items-center justify-between p-3 rounded-xl hover:bg-surface-container-low transition-colors" data-path="cai-dat" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[22px] text-primary">settings</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Cài đặt ứng dụng</span>
+<span class="font-body-sm text-body-sm text-outline">Giao diện, thông báo &amp; ngày tháng</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-outline">chevron_right</span>
+</a>
+<a class="flex items-center justify-between p-3 rounded-xl hover:bg-surface-container-low transition-colors" data-path="quyen-rieng-tu" href="#">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[22px] text-primary">shield</span>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface">Quyền riêng tư &amp; Quản lý dữ liệu</span>
+<span class="font-body-sm text-body-sm text-outline">Sao lưu, phục hồi hoặc xóa dữ liệu</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[20px] text-outline">chevron_right</span>
+</a>
+</div>
+<!-- Confirmation Modal Bottom Sheet (Triggered by Delete) -->
+<div aria-labelledby="modal-title" aria-modal="true" class="fixed inset-0 z-50 hidden flex-col justify-end bg-on-surface/40 backdrop-blur-sm transition-opacity" id="delete-modal" role="dialog">
+<div class="bg-surface-container-lowest rounded-t-3xl p-6 flex flex-col gap-space-md shadow-xl max-w-lg mx-auto w-full">
+<div class="w-10 h-1 bg-surface-variant rounded-full mx-auto mb-1"></div>
+<div class="w-12 h-12 rounded-full bg-error-container text-error flex items-center justify-center mx-auto">
+<span class="material-symbols-outlined text-[28px]">delete_forever</span>
+</div>
+<div class="text-center">
+<h4 class="font-headline-sm text-headline-sm text-on-surface" id="modal-title">Xác nhận xóa hồ sơ</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+          Bạn có chắc chắn muốn xóa hồ sơ của <strong class="text-primary font-semibold" id="delete-profile-name"></strong> khỏi thiết bị? Thao tác này không thể hoàn tác.
+        </p>
+</div>
+<div class="flex flex-col gap-2 pt-2">
+<button class="w-full h-12 rounded-xl bg-error text-on-error font-label-md text-label-md flex items-center justify-center shadow-sm" onclick="executeDelete()" type="button">
+          Xóa vĩnh viễn
+        </button>
+<button class="w-full h-12 rounded-xl bg-surface-container-high text-on-surface font-label-md text-label-md flex items-center justify-center" onclick="closeDeleteModal()" type="button">
+          Hủy bỏ
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  let targetProfileToDelete = '';
+
+  function confirmDelete(name) {
+    targetProfileToDelete = name;
+    document.getElementById('delete-profile-name').textContent = name;
+    const modal = document.getElementById('delete-modal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+  }
+
+  function closeDeleteModal() {
+    const modal = document.getElementById('delete-modal');
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    targetProfileToDelete = '';
+  }
+
+  function executeDelete() {
+    if (targetProfileToDelete) {
+      const cards = document.querySelectorAll('.profile-card');
+      cards.forEach(card => {
+        if (card.dataset.name === targetProfileToDelete) {
+          card.style.transition = 'all 0.3s ease';
+          card.style.opacity = '0';
+          card.style.transform = 'scale(0.95)';
+          setTimeout(() => card.remove(), 300);
+        }
+      });
+      closeDeleteModal();
+    }
+  }
+
+  // Interactive selection micro-animation
+  document.querySelectorAll('.btn-select-profile').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const icon = this.querySelector('.material-symbols-outlined');
+      if (icon) {
+        icon.textContent = 'check_circle';
+        this.classList.add('bg-primary', 'text-on-primary');
+        setTimeout(() => {
+          // Subtle feedback reset or navigate
+          icon.textContent = 'radio_button_unchecked';
+          this.classList.remove('bg-primary', 'text-on-primary');
+        }, 1200);
+      }
+    });
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(81,65,95,0.04)]" data-active-classes="text-primary font-semibold"><div class="h-16 px-margin flex items-center justify-around"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="kham-pha" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm">Khám phá</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="phan-tich" href="#"><span class="material-symbols-outlined text-[24px]">grid_view</span><span class="font-label-sm text-label-sm">Phân tích</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="ho-so" href="#"><span class="material-symbols-outlined text-[24px]">account_circle</span><span class="font-label-sm text-label-sm">Hồ sơ</span></a></div></nav>
+
+</body></html>
+
+<!-- V1-09: Cài đặt - Thần số học Pilogy -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><title>Pilogy Numerology</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "background": "#fef7ff", "on-secondary": "#ffffff", "on-primary-fixed": "#231531", "tertiary": "#34312c", "on-error": "#ffffff", "primary": "#3a2b47", "outline": "#7b757d", "surface-container-lowest": "#ffffff", "surface": "#fef7ff", "on-error-container": "#93000a", "on-tertiary-container": "#bbb5af", "on-tertiary": "#ffffff", "surface-container-high": "#eee5f3", "secondary-fixed": "#ffdea5", "on-tertiary-fixed": "#1e1b17", "on-primary-container": "#c3aed2", "on-primary-fixed-variant": "#50405e", "error": "#ba1a1a", "surface-dim": "#dfd7e5", "inverse-on-surface": "#f6eefc", "inverse-primary": "#d4bfe3", "secondary-container": "#ffdb9b", "surface-variant": "#e8dfed", "on-surface-variant": "#4a454c", "on-secondary-fixed-variant": "#5a4311", "on-surface": "#1e1a23", "on-secondary-container": "#795f2b", "on-secondary-fixed": "#261900", "secondary-fixed-dim": "#e4c284", "outline-variant": "#ccc4cd", "surface-container": "#f3ebf9", "primary-fixed": "#f0dbff", "tertiary-container": "#4b4742", "surface-tint": "#695877", "surface-container-low": "#f9f1ff", "inverse-surface": "#332f39", "tertiary-fixed-dim": "#ccc5bf", "primary-container": "#51415f", "on-background": "#1e1a23", "surface-bright": "#fef7ff", "secondary": "#745a27", "tertiary-fixed": "#e8e1da", "on-tertiary-fixed-variant": "#4a4641", "surface-container-highest": "#e8dfed", "primary-fixed-dim": "#d4bfe3", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, "fontFamily": { "label-sm": ["Inter"], "body-sm": ["Inter"], "display-numeral-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "display-numeral": ["Playfair Display"], "label-md": ["Inter"], "headline-sm": ["Playfair Display"], "body-lg": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased flex flex-col min-h-full"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(81,65,95,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-primary tracking-tight">Hồ Sơ</span></div><div class="flex items-center gap-space-sm"><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-24 bg-surface"><div class="flex flex-col w-full px-margin pb-10">
+<!-- Sub-header Breadcrumb / Navigation Back Action -->
+<div class="flex items-center justify-between py-space-sm mb-space-sm">
+<a class="inline-flex items-center gap-space-xs text-on-surface-variant hover:text-primary transition-colors py-1.5 pr-2" data-path="ho-so" href="#">
+<span class="material-symbols-outlined text-[20px]">arrow_back</span>
+<span class="font-label-md text-label-md">Hồ sơ</span>
+</a>
+<span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+      Cục bộ v1.0
+    </span>
+</div>
+<!-- Page Introduction Banner -->
+<div class="bg-surface-container-low rounded-xl p-space-md mb-space-lg shadow-sm">
+<div class="flex items-start gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[20px]">tune</span>
+</div>
+<div class="flex flex-col min-w-0">
+<h1 class="font-headline-sm text-headline-sm text-primary tracking-tight">Cài đặt</h1>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
+          Tùy chỉnh trải nghiệm, nhịp sinh học cá nhân và quyền riêng tư thiết bị.
+        </p>
+</div>
+</div>
+</div>
+<!-- GROUP 1: Hồ sơ & Dữ liệu -->
+<section class="flex flex-col mb-space-lg">
+<div class="flex items-center justify-between px-1 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Hồ sơ &amp; Dữ liệu</span>
+<span class="font-label-sm text-label-sm text-secondary">Offline an toàn</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm mb-space-sm">
+<!-- Active Profile Preview -->
+<div class="flex items-center justify-between pb-space-md mb-space-md bg-surface-container-low rounded-lg p-3">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="relative w-11 h-11 rounded-full bg-primary flex items-center justify-center text-on-primary shrink-0">
+<span class="font-headline-sm text-headline-sm leading-none">7</span>
+<span class="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-secondary rounded-full flex items-center justify-center text-[9px] text-on-secondary">
+<span class="material-symbols-outlined text-[10px]">check</span>
+</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Nguyễn Minh Anh</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">
+              Số Chủ Đạo 7 · 14/09/1996
+            </span>
+</div>
+</div>
+<span class="shrink-0 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+          Đang xem
+        </span>
+</div>
+<!-- Action: Quản lý hồ sơ đã lưu -->
+<a class="flex items-center justify-between py-2.5 px-1 rounded-lg hover:bg-surface-container-low transition-colors group" data-path="v1-08-ho-so-luu" href="#">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[19px]">group</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Quản lý hồ sơ đã lưu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Chuyển đổi hoặc thêm ngày sinh thành viên</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="font-label-sm text-label-sm text-outline">3 hồ sơ</span>
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</a>
+<!-- Action: Quyền riêng tư & Dữ liệu -->
+<a class="flex items-center justify-between py-2.5 px-1 mt-1 rounded-lg hover:bg-surface-container-low transition-colors group" data-path="v1-10-quyen-rieng-tu" href="#">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[19px]">shield</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Quyền riêng tư &amp; Dữ liệu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Bộ nhớ máy, xuất/xóa dữ liệu cá nhân</span>
+</div>
+</div>
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span class="material-symbols-outlined text-[18px]">chevron_right</span>
+</div>
+</a>
+</div>
+</section>
+<!-- GROUP 2: Tùy chọn trải nghiệm -->
+<section class="flex flex-col mb-space-lg">
+<div class="px-1 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Tùy chọn trải nghiệm</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-md">
+<!-- Toggle: Thông báo nhắc nhở -->
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">alarm</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Thông báo chiêm nghiệm</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hàng ngày lúc 07:00 sáng</span>
+</div>
+</div>
+<!-- Micro-interactive Switch -->
+<button aria-checked="true" class="w-12 h-7 bg-primary rounded-full p-0.5 transition-colors relative flex items-center focus:outline-none shrink-0" id="toggle-notification" onclick="const dot = this.querySelector('span'); const checked = this.getAttribute('aria-checked') === 'true'; this.setAttribute('aria-checked', !checked); if(checked){ this.classList.remove('bg-primary'); this.classList.add('bg-outline-variant'); dot.classList.remove('translate-x-5'); dot.classList.add('translate-x-0'); } else { this.classList.add('bg-primary'); this.classList.remove('bg-outline-variant'); dot.classList.add('translate-x-5'); dot.classList.remove('translate-x-0'); }" role="switch" type="button">
+<span class="w-6 h-6 bg-on-primary rounded-full shadow-sm transform translate-x-5 transition-transform duration-200 ease-in-out"></span>
+</button>
+</div>
+<!-- Option: Ngôn ngữ hiển thị -->
+<div class="flex items-center justify-between gap-space-sm pt-2">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">language</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Ngôn ngữ hiển thị</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Hệ thuật ngữ Pythagoras</span>
+</div>
+</div>
+<button class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" type="button">
+<span>Tiếng Việt</span>
+<span class="material-symbols-outlined text-[16px] text-outline">unfold_more</span>
+</button>
+</div>
+<!-- Segment Selector: Chế độ hiển thị -->
+<div class="pt-2 flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-body-md text-body-md text-on-surface font-medium">Chế độ hiển thị</span>
+<span class="font-label-sm text-label-sm text-secondary">Đang bật Sáng</span>
+</div>
+<div class="grid grid-cols-3 gap-1.5 p-1 bg-surface-container-low rounded-xl" id="theme-selector">
+<button class="flex items-center justify-center gap-1.5 py-2 px-2 rounded-lg bg-surface-container-lowest text-primary shadow-sm font-label-md text-label-md transition-all" data-theme-btn="light" type="button">
+<span class="material-symbols-outlined text-[16px]">light_mode</span>
+<span>Sáng</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 py-2 px-2 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-theme-btn="dark" type="button">
+<span class="material-symbols-outlined text-[16px]">dark_mode</span>
+<span>Tối</span>
+</button>
+<button class="flex items-center justify-center gap-1.5 py-2 px-2 rounded-lg text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-theme-btn="auto" type="button">
+<span class="material-symbols-outlined text-[16px]">brightness_auto</span>
+<span>Tự động</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- GROUP 3: Hỗ trợ & Thông tin -->
+<section class="flex flex-col mb-space-lg">
+<div class="px-1 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Hỗ trợ &amp; Kiến thức</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm divide-y-0 space-y-1">
+<!-- Item: Phương pháp tính toán Pythagoras -->
+<button class="w-full flex items-center justify-between py-2.5 px-1 rounded-lg hover:bg-surface-container-low transition-colors text-left" onclick="const modal = document.getElementById('pythagoras-info-drawer'); modal.classList.toggle('hidden');" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">calculate</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Phương pháp Pythagoras</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Nguyên lý toán học &amp; biểu đồ ngày sinh</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</button>
+<!-- Item: FAQ -->
+<a class="w-full flex items-center justify-between py-2.5 px-1 rounded-lg hover:bg-surface-container-low transition-colors text-left" href="#">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">help_center</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Trung tâm trợ giúp (FAQ)</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Giải đáp các câu hỏi số học thường gặp</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</a>
+<!-- Item: Đánh giá ứng dụng -->
+<button class="w-full flex items-center justify-between py-2.5 px-1 rounded-lg hover:bg-surface-container-low transition-colors text-left" onclick="alert('Cảm ơn bạn đã đồng hành cùng Pilogy! Đang chuyển hướng tới kho ứng dụng...');" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-on-secondary-container">
+<span class="material-symbols-outlined text-[19px]">star</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Đánh giá 5 sao</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Ủng hộ nhóm phát triển Pilogy độc lập</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">open_in_new</span>
+</button>
+<!-- Item: Chia sẻ ứng dụng -->
+<button class="w-full flex items-center justify-between py-2.5 px-1 rounded-lg hover:bg-surface-container-low transition-colors text-left" onclick="if(navigator.share){ navigator.share({title:'Pilogy Numerology', text:'Khám phá bản đồ số học Pythagoras cá nhân của bạn cùng Pilogy.', url:window.location.href}); } else { alert('Đã sao chép liên kết chia sẻ ứng dụng!'); }" type="button">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-8 h-8 rounded-lg bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[19px]">share</span>
+</div>
+<div class="flex flex-col min-w-0">
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Chia sẻ ứng dụng</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Gửi tặng công cụ chiêm nghiệm cho bạn bè</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">ios_share</span>
+</button>
+</div>
+</section>
+<!-- Inline Info Card Drawer (Modal helper for Pythagoras) -->
+<div class="hidden bg-surface-container-high rounded-xl p-space-md mb-space-lg transition-all shadow-sm" id="pythagoras-info-drawer">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2 text-primary font-headline-sm text-headline-sm">
+<span class="material-symbols-outlined text-[20px] text-secondary">insights</span>
+<span>Hệ chuẩn Pythagoras</span>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1" onclick="document.getElementById('pythagoras-info-drawer').classList.add('hidden');" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface mb-2">
+      Pilogy sử dụng hệ thống số học Pythagoras phương Tây chính thống. Mọi phân tích biểu đồ ngày sinh (Birth Chart) và số Chủ đạo (Life Path) đều dựa trên nguyên lý cộng rút gọn các con số tự nhiên từ 1 đến 9, bảo toàn các bộ số chủ đạo đặc biệt (11, 22, 33).
+    </p>
+<div class="bg-surface-container-lowest rounded-lg p-2.5 flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Không diễn giải huyền bí · Tập trung vào tâm lý học phát triển</span>
+</div>
+</div>
+<!-- GROUP 4: Pháp lý & Tuyên bố miễn trừ trách nhiệm -->
+<section class="flex flex-col mb-space-lg">
+<div class="px-1 mb-space-xs">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline">Pháp lý &amp; Minh bạch</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm space-y-space-md">
+<!-- Legal Links -->
+<div class="grid grid-cols-2 gap-space-sm">
+<a class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors" href="#">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">Chính sách riêng tư</span>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_outward</span>
+</a>
+<a class="flex items-center justify-between p-2.5 rounded-lg bg-surface-container-low hover:bg-surface-container transition-colors" href="#">
+<span class="font-body-sm text-body-sm text-on-surface font-medium truncate">Điều khoản sử dụng</span>
+<span class="material-symbols-outlined text-[16px] text-on-surface-variant">arrow_outward</span>
+</a>
+</div>
+<!-- Tuyên bố miễn trừ trách nhiệm Callout -->
+<div class="bg-surface-container-low rounded-xl p-space-md">
+<div class="flex items-start gap-2.5">
+<span class="material-symbols-outlined text-secondary text-[20px] shrink-0 mt-0.5">info</span>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm text-primary mb-1">Tuyên bố miễn trừ trách nhiệm</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Thần số học Pythagoras là công cụ toán học chiêm nghiệm nhằm hỗ trợ người dùng quán chiếu tâm trí, thấu cảm thiên hướng cá nhân và định hình lối sống. Ứng dụng <strong class="text-on-surface font-medium">hoàn toàn không mang tính dự đoán tương lai tuyệt đối, không thay thế cho tư vấn tâm lý chuyên nghiệp hay can thiệp số phận</strong>.
+            </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- App Info Footer (Refined Pythagorean Star & Local Data Statement) -->
+<footer class="flex flex-col items-center justify-center text-center py-space-md">
+<!-- Star of Pythagoras Geometric SVG Stamp -->
+<div class="w-12 h-12 mb-3 text-secondary flex items-center justify-center rounded-full bg-surface-container-high">
+<svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="1.2" viewbox="0 0 40 40">
+<circle cx="20" cy="20" opacity="0.6" r="18" stroke-dasharray="2 3"></circle>
+<polygon fill="none" points="20,4 24,15 36,15 26,22 30,34 20,26 10,34 14,22 4,15 16,15"></polygon>
+<circle cx="20" cy="20" fill="currentColor" r="3"></circle>
+</svg>
+</div>
+<div class="font-headline-sm text-headline-sm text-primary tracking-tight mb-0.5">Pilogy Numerology</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mb-2">Phiên bản 1.0 (Phase 1) · Bản dựng 104</div>
+<div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface-variant font-body-sm text-body-sm mb-4">
+<span class="material-symbols-outlined text-[15px] text-secondary">lock</span>
+<span>100% Lưu trữ cục bộ · Không lưu dữ liệu đám mây</span>
+</div>
+<div class="font-body-sm text-body-sm text-outline max-w-[280px]">
+      Thiết kế dành cho sự tĩnh tại và thấu hiểu bản thân theo tinh thần Pythagoras.
+    </div>
+</footer>
+</div>
+<script>
+  // Micro-interaction for theme switcher segmented control
+  document.querySelectorAll('#theme-selector button').forEach(button => {
+    button.addEventListener('click', function() {
+      document.querySelectorAll('#theme-selector button').forEach(btn => {
+        btn.classList.remove('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+        btn.classList.add('text-on-surface-variant');
+      });
+      this.classList.remove('text-on-surface-variant');
+      this.classList.add('bg-surface-container-lowest', 'text-primary', 'shadow-sm');
+    });
+  });
+</script></main><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-4px_20px_rgba(81,65,95,0.04)]" data-active-classes="text-primary font-semibold"><div class="h-16 px-margin flex items-center justify-around"><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="kham-pha" href="#"><span class="material-symbols-outlined text-[24px]">explore</span><span class="font-label-sm text-label-sm">Khám phá</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="phan-tich" href="#"><span class="material-symbols-outlined text-[24px]">grid_view</span><span class="font-label-sm text-label-sm">Phân tích</span></a><a class="flex flex-col items-center justify-center min-w-[56px] min-h-[44px] gap-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="ho-so" href="#"><span class="material-symbols-outlined text-[24px]">account_circle</span><span class="font-label-sm text-label-sm">Hồ sơ</span></a></div></nav></body></html>
+
+<!-- V1-03: Khám phá (Tab 1) - Pilogy V1 -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline-variant": "#ccc4cd", "background": "#fef7ff", "primary-fixed": "#f0dbff", "outline": "#7b757d", "surface-container-highest": "#e8dfed", "on-secondary-fixed": "#261900", "inverse-primary": "#d4bfe3", "inverse-surface": "#332f39", "tertiary-container": "#4b4742", "on-tertiary-container": "#bbb5af", "tertiary": "#34312c", "inverse-on-surface": "#f6eefc", "on-tertiary-fixed-variant": "#4a4641", "error": "#ba1a1a", "surface-variant": "#e8dfed", "surface": "#fef7ff", "on-error": "#ffffff", "on-tertiary-fixed": "#1e1b17", "on-secondary": "#ffffff", "on-surface": "#1e1a23", "surface-container-low": "#f9f1ff", "on-surface-variant": "#4a454c", "secondary-fixed-dim": "#e4c284", "on-primary-container": "#c3aed2", "surface-bright": "#fef7ff", "primary-fixed-dim": "#d4bfe3", "on-error-container": "#93000a", "surface-dim": "#dfd7e5", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#ccc5bf", "surface-tint": "#695877", "tertiary-fixed": "#e8e1da", "on-primary": "#ffffff", "surface-container": "#f3ebf9", "on-primary-fixed-variant": "#50405e", "secondary-container": "#ffdb9b", "on-secondary-fixed-variant": "#5a4311", "on-background": "#1e1a23", "secondary-fixed": "#ffdea5", "on-primary-fixed": "#231531", "on-secondary-container": "#795f2b", "secondary": "#745a27", "primary-container": "#51415f", "surface-container-high": "#eee5f3", "primary": "#3a2b47" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xl": "2.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, fontFamily: { "label-md": ["Inter"], "body-md": ["Inter"], "display-numeral": ["Playfair Display"], "display-numeral-mobile": ["Playfair Display"], "body-lg": ["Inter"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "body-sm": ["Inter"], "headline-sm": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, fontSize: { "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,44px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-full"><header class="fixed top-0 w-full z-50 pt-safe bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><span class="font-headline-md text-headline-md text-primary tracking-tight">Pilogy</span><span class="h-4 w-px bg-outline-variant/40"></span><span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">V1</span></div><div class="flex items-center gap-space-sm"><button class="h-9 px-3 rounded-full bg-surface-container flex items-center gap-1.5 text-on-surface-variant hover:text-on-surface transition-colors"><span class="material-symbols-outlined text-[16px] text-secondary">account_circle</span><span class="font-label-sm text-label-sm max-w-[84px] truncate">Hồ sơ chính</span><span class="material-symbols-outlined text-[14px]">expand_more</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 w-full bg-surface pt-16 pb-24"><div class="flex flex-col w-full px-margin pb-6 gap-space-lg">
+<!-- Lời chào cá nhân hóa & Chiêm nghiệm ngày mới -->
+<section class="flex flex-col gap-space-xs mt-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary">Hôm nay, 24 Tháng 10, 2025</span>
+<span class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+        Hồ sơ #1
+      </span>
+</div>
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight">Xin chào, Minh Anh</h1>
+<p class="font-body-md text-body-md text-on-surface-variant italic mt-0.5">
+      “Sự tĩnh lặng không phải là sự vắng mặt của âm thanh, mà là khởi đầu của trí tuệ thấu suốt.”
+    </p>
+</section>
+<!-- Hero Card: Con số đường đời (Life Path 7) -->
+<section class="relative rounded-2xl bg-surface-container-lowest p-6 shadow-sm overflow-hidden flex flex-col gap-space-md">
+<div class="absolute -right-6 -bottom-6 w-36 h-36 rounded-full bg-surface-container-low pointer-events-none opacity-60"></div>
+<div class="flex items-center justify-between relative z-10">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-outline font-semibold">Con Số Đường Đời</span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-medium">Năng lượng cốt lõi</span>
+</div>
+<div class="flex items-baseline gap-4 relative z-10">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-secondary font-medium tracking-tight">7</span>
+<div class="flex flex-col">
+<h2 class="font-headline-sm text-headline-sm text-primary font-semibold">Người Tìm Kiếm Chân Lý</h2>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Trí tuệ trực giác &amp; Chiêm nghiệm nội tâm</span>
+</div>
+</div>
+<p class="font-body-md text-body-md text-on-surface relative z-10 leading-relaxed">
+      Bạn sở hữu tần số rung động của người học hỏi sâu sắc, thích khám phá chân lý ẩn giấu đằng sau thế giới vật chất và phát triển năng lực trực giác độc lập.
+    </p>
+<!-- Biểu đồ phân bổ năng lượng nhịp nhàng -->
+<div class="pt-2 relative z-10 flex flex-col gap-1.5">
+<div class="flex justify-between items-center text-on-surface-variant font-label-sm text-label-sm">
+<span>Cường độ rung động tự nhiên</span>
+<span class="text-secondary font-semibold">88%</span>
+</div>
+<div class="w-full h-1.5 rounded-full bg-surface-container overflow-hidden">
+<div class="h-full rounded-full bg-secondary" style="width: 88%"></div>
+</div>
+</div>
+</section>
+<!-- Bộ ba chỉ số tâm thức (Linh hồn, Nhân cách, Sứ mệnh) -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary">Bộ Ba Chỉ Số Cốt Lõi</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tổng hòa danh xưng</span>
+</div>
+<div class="grid grid-cols-3 gap-2.5">
+<!-- Linh hồn: 8 -->
+<div class="rounded-xl bg-surface-container-lowest p-3.5 flex flex-col items-center text-center shadow-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">Linh Hồn</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">8</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium mt-1">Độc Lập</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5 scale-90">Khao khát tự chủ</span>
+</div>
+<!-- Nhân cách: 6 -->
+<div class="rounded-xl bg-surface-container-lowest p-3.5 flex flex-col items-center text-center shadow-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">Nhân Cách</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">6</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium mt-1">Ấm Áp</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5 scale-90">Bao dung &amp; che chở</span>
+</div>
+<!-- Sứ mệnh: 1 -->
+<div class="rounded-xl bg-surface-container-lowest p-3.5 flex flex-col items-center text-center shadow-sm">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-1">Sứ Mệnh</span>
+<span class="font-headline-lg-mobile text-headline-lg-mobile text-primary font-semibold">1</span>
+<span class="font-body-sm text-body-sm text-on-surface font-medium mt-1">Dẫn Đầu</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5 scale-90">Khởi xướng bứt phá</span>
+</div>
+</div>
+</section>
+<!-- Chu kỳ thời gian hiện tại: Năm cá nhân & Tháng cá nhân -->
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-primary">Chu Kỳ Rung Động Hiện Tại</h3>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Năm 2025</span>
+</div>
+<div class="flex flex-col gap-2.5">
+<!-- Năm cá nhân 9 -->
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-md text-headline-md text-secondary font-semibold">9</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-body-md text-body-md text-primary font-semibold">Năm Cá Nhân 9</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-secondary">2025</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Chu kỳ đúc kết, hoàn tất &amp; chuẩn bị tái sinh</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">sync</span>
+</div>
+<!-- Tháng cá nhân 7 -->
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center shrink-0">
+<span class="font-headline-md text-headline-md text-primary font-semibold">7</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1.5">
+<span class="font-body-md text-body-md text-primary font-semibold">Tháng Cá Nhân 7</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tháng 10</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Thời khắc quay về bên trong, tĩnh tại và chiêm nghiệm</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline-variant text-[20px]">spa</span>
+</div>
+</div>
+</section>
+<!-- CTA trực tiếp sang Tab Phân Tích -->
+<section class="pt-1">
+<button class="w-full h-13 py-3.5 px-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-medium tracking-wide flex items-center justify-center gap-2 shadow-sm active:opacity-95 transition-all" id="cta-go-analysis" type="button">
+<span>Xem bản phân tích chi tiết của tôi</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</section>
+<!-- Vị trí đặt AdMob Adaptive Banner (Chuẩn 320x50 / Adaptive tinh tế) -->
+<section class="flex flex-col items-center gap-1.5 pt-2">
+<div class="w-full max-w-[320px] h-[52px] rounded-lg bg-surface-container-high/60 flex items-center justify-between px-3 relative overflow-hidden">
+<!-- Dấu hiệu trang nhã chuẩn AdMob Banner -->
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded bg-surface-container flex items-center justify-center">
+<span class="material-symbols-outlined text-outline text-[16px]">interests</span>
+</div>
+<div class="flex flex-col text-left">
+<span class="font-label-sm text-label-sm text-on-surface font-medium truncate max-w-[190px]">Không gian đồng hành tri thức</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant scale-90 origin-left">Hỗ trợ duy trì nền tảng Pilogy</span>
+</div>
+</div>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-highest text-outline font-label-sm text-[9px] uppercase tracking-wider font-semibold">
+        Quảng cáo
+      </span>
+</div>
+<span class="font-label-sm text-label-sm text-outline-variant text-[10px]">AdMob Adaptive Banner</span>
+</section>
+</div>
+<script>
+  // Chuyển hướng nhanh sang Tab Phân Tích khi bấm nút CTA
+  document.getElementById('cta-go-analysis')?.addEventListener('click', function () {
+    const analysisNav = document.querySelector('nav a[data-path="phan-tich"]');
+    if (analysisNav) {
+      analysisNav.click();
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-2px_12px_rgba(81,65,95,0.05)]" data-active-classes="text-primary font-semibold"><div class="h-16 px-space-md flex items-center justify-around"><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="kham-pha" href="#"><span class="material-symbols-outlined text-[22px]">explore</span><span class="font-label-sm text-label-sm">Khám phá</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="phan-tich" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-label-sm">Phân tích</span></a><a class="flex flex-col items-center justify-center min-w-[64px] min-h-[44px] gap-1 text-on-surface-variant transition-colors" data-path="ho-so" href="#"><span class="material-symbols-outlined text-[22px]">person</span><span class="font-label-sm text-label-sm">Hồ sơ</span></a></div></nav></body></html>
+
+<!-- V1-10: Quyền riêng tư & Dữ liệu - Pilogy -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Pilogy Numerology</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "background": "#fef7ff", "on-secondary": "#ffffff", "on-primary-fixed": "#231531", "tertiary": "#34312c", "on-error": "#ffffff", "primary": "#3a2b47", "outline": "#7b757d", "surface-container-lowest": "#ffffff", "surface": "#fef7ff", "on-error-container": "#93000a", "on-tertiary-container": "#bbb5af", "on-tertiary": "#ffffff", "surface-container-high": "#eee5f3", "secondary-fixed": "#ffdea5", "on-tertiary-fixed": "#1e1b17", "on-primary-container": "#c3aed2", "on-primary-fixed-variant": "#50405e", "error": "#ba1a1a", "surface-dim": "#dfd7e5", "inverse-on-surface": "#f6eefc", "inverse-primary": "#d4bfe3", "secondary-container": "#ffdb9b", "surface-variant": "#e8dfed", "on-surface-variant": "#4a454c", "on-secondary-fixed-variant": "#5a4311", "on-surface": "#1e1a23", "on-secondary-container": "#795f2b", "on-secondary-fixed": "#261900", "secondary-fixed-dim": "#e4c284", "outline-variant": "#ccc4cd", "surface-container": "#f3ebf9", "primary-fixed": "#f0dbff", "tertiary-container": "#4b4742", "surface-tint": "#695877", "surface-container-low": "#f9f1ff", "inverse-surface": "#332f39", "tertiary-fixed-dim": "#ccc5bf", "primary-container": "#51415f", "on-background": "#1e1a23", "surface-bright": "#fef7ff", "secondary": "#745a27", "tertiary-fixed": "#e8e1da", "on-tertiary-fixed-variant": "#4a4641", "surface-container-highest": "#e8dfed", "primary-fixed-dim": "#d4bfe3", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, "fontFamily": { "label-sm": ["Inter"], "body-sm": ["Inter"], "display-numeral-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "display-numeral": ["Playfair Display"], "label-md": ["Inter"], "headline-sm": ["Playfair Display"], "body-lg": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased flex flex-col min-h-full"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(81,65,95,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Quay lại" class="w-11 h-11 -ml-2 flex items-center justify-center text-primary rounded-full hover:bg-surface-variant transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight truncate max-w-[210px]">Quyền Riêng Tư &amp; Quản Lý Dữ Liệu</h1></div><div class="flex items-center gap-space-sm"><button aria-label="Tùy chọn" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-10">
+<div class="px-margin pt-4 pb-2">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-variant text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified_user</span>
+      BẢO MẬT &amp; MINH BẠCH
+    </span>
+<h2 class="font-headline-lg-mobile text-headline-lg-mobile text-primary mt-2">Quyền riêng tư &amp; Dữ liệu</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Minh bạch về cơ chế lưu trữ và thuật toán tính toán của Pilogy.</p>
+</div>
+<div class="px-margin mt-4">
+<div class="bg-surface-container rounded-xl p-space-md shadow-sm relative overflow-hidden">
+<div class="flex items-start gap-3">
+<div class="w-10 h-10 rounded-full bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]">swap_horizontal_circle</span>
+</div>
+<div class="min-w-0 flex-1">
+<h3 class="font-headline-sm text-headline-sm text-primary">Cơ chế lưu trữ và tính toán</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+            Hồ sơ cá nhân (Họ tên, ngày sinh) được bảo mật lưu trữ cục bộ trên thiết bị của bạn. Khi kích hoạt phân tích, dữ liệu được truyền an toàn qua kết nối mã hóa tới API máy chủ để xử lý thuật toán Pythagoras và trả kết quả luận giải.
+          </p>
+<div class="mt-3 flex items-center gap-2 p-2.5 bg-surface-container-lowest rounded-lg">
+<span class="material-symbols-outlined text-secondary text-[18px] shrink-0">shield_lock</span>
+<p class="font-body-sm text-body-sm text-on-surface">Không lưu trữ danh tính vĩnh viễn trên máy chủ bên thứ ba.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="px-margin mt-6">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Lưu trữ cục bộ</span>
+<span class="font-label-sm text-label-sm text-secondary font-medium">Bộ nhớ trên máy</span>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="grid grid-cols-3 gap-2">
+<div class="bg-surface-container-low rounded-lg p-3 text-center">
+<div class="font-headline-md text-headline-md text-primary">~18</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">KB dung lượng</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-3 text-center">
+<div class="font-headline-md text-headline-md text-primary" id="profile-count-display">3</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Hồ sơ đã lưu</div>
+</div>
+<div class="bg-surface-container-low rounded-lg p-3 text-center">
+<div class="font-headline-md text-headline-md text-primary" id="cache-count-display">3</div>
+<div class="font-label-sm text-label-sm text-on-surface-variant mt-1">Bộ chỉ số cache</div>
+</div>
+</div>
+<div class="mt-4 pt-4 border-t-0 flex flex-col gap-2">
+<button class="w-full h-[50px] rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md flex items-center justify-between px-4 transition-colors" id="export-json-btn" type="button">
+<span class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[20px] text-primary">download</span>
+            Xuất dữ liệu hồ sơ (JSON)
+          </span>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">chevron_right</span>
+</button>
+<button class="w-full h-[50px] rounded-lg bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md flex items-center justify-between px-4 transition-colors" id="clear-cache-btn" type="button">
+<span class="flex items-center gap-2.5">
+<span class="material-symbols-outlined text-[20px] text-primary">cleaning_services</span>
+            Xóa dữ liệu bộ nhớ đệm (Cache)
+          </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant" id="cache-status-text">Làm sạch</span>
+</button>
+</div>
+</div>
+</div>
+<div class="px-margin mt-6">
+<div class="rounded-xl bg-error-container/35 p-space-md shadow-sm">
+<div class="flex items-start gap-3">
+<div class="w-8 h-8 rounded-full bg-error text-on-error flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[18px]">warning</span>
+</div>
+<div class="min-w-0 flex-1">
+<h3 class="font-headline-sm text-headline-sm text-on-error-container">Vùng nguy hiểm</h3>
+<p class="font-body-sm text-body-sm text-on-surface mt-1 leading-relaxed">
+            Xóa vĩnh viễn tất cả hồ sơ trên thiết bị này. Hành động này không thể hoàn tác vì ứng dụng không duy trì tài khoản máy chủ để khôi phục.
+          </p>
+<button class="mt-4 w-full h-[48px] rounded-lg bg-error hover:bg-error/90 text-on-error font-label-md text-label-md flex items-center justify-center gap-2 shadow-sm transition-transform active:scale-[0.98]" id="open-danger-modal-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">delete_forever</span>
+            Xóa toàn bộ hồ sơ đã lưu
+          </button>
+</div>
+</div>
+</div>
+</div>
+<div class="px-margin mt-6">
+<div class="bg-surface-container-lowest rounded-xl p-space-md shadow-sm">
+<div class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider mb-2">Quy định pháp lý</div>
+<div class="flex flex-col">
+<a class="py-3 flex items-center justify-between group" href="#privacy-policy">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[20px] text-primary">policy</span>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-primary">Chính sách quyền riêng tư chi tiết</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_outward</span>
+</a>
+<div class="h-[1px] bg-surface-variant w-full"></div>
+<a class="py-3 flex items-center justify-between group" href="#terms">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-[20px] text-primary">gavel</span>
+<span class="font-body-md text-body-md text-on-surface group-hover:text-primary">Điều khoản dịch vụ</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+<div class="fixed bottom-6 left-1/2 -translate-x-1/2 bg-inverse-surface text-inverse-on-surface px-4 py-2.5 rounded-full shadow-lg font-body-sm text-body-sm flex items-center gap-2 opacity-0 pointer-events-none transition-opacity duration-300 z-50" id="toast-message">
+<span class="material-symbols-outlined text-[18px] text-secondary-container">check_circle</span>
+<span id="toast-text">Thông báo hoàn tất</span>
+</div>
+<div class="fixed inset-0 z-50 flex items-center justify-center px-6 opacity-0 pointer-events-none transition-opacity duration-200" id="danger-modal">
+<div class="absolute inset-0 bg-on-surface/40 backdrop-blur-sm" id="modal-backdrop"></div>
+<div class="relative bg-surface-container-lowest rounded-xl max-w-sm w-full p-5 shadow-xl">
+<div class="w-12 h-12 rounded-full bg-error-container text-on-error-container flex items-center justify-center mb-3">
+<span class="material-symbols-outlined text-[26px]">delete_forever</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-primary">Bạn có chắc chắn muốn xóa?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+        Toàn bộ 3 hồ sơ được lưu trên thiết bị này sẽ bị xóa vĩnh viễn. Pilogy không duy trì bản sao lưu từ xa.
+      </p>
+<div class="flex items-center gap-2.5 mt-5">
+<button class="flex-1 h-11 rounded-lg bg-surface-container-high text-on-surface font-label-md text-label-md hover:bg-surface-variant transition-colors" id="cancel-delete-btn" type="button">
+          Hủy bỏ
+        </button>
+<button class="flex-1 h-11 rounded-lg bg-error text-on-error font-label-md text-label-md hover:bg-error/90 transition-colors" id="confirm-delete-btn" type="button">
+          Xác nhận xóa
+        </button>
+</div>
+</div>
+</div>
+</div>
+<script>
+  (function() {
+    const exportBtn = document.getElementById('export-json-btn');
+    const clearCacheBtn = document.getElementById('clear-cache-btn');
+    const cacheStatusText = document.getElementById('cache-status-text');
+    const cacheDisplay = document.getElementById('cache-count-display');
+    const profileDisplay = document.getElementById('profile-count-display');
+    const openDangerModalBtn = document.getElementById('open-danger-modal-btn');
+    const dangerModal = document.getElementById('danger-modal');
+    const modalBackdrop = document.getElementById('modal-backdrop');
+    const cancelDeleteBtn = document.getElementById('cancel-delete-btn');
+    const confirmDeleteBtn = document.getElementById('confirm-delete-btn');
+    const toast = document.getElementById('toast-message');
+    const toastText = document.getElementById('toast-text');
+
+    let toastTimer;
+    function showToast(msg) {
+      if (!toast) return;
+      toastText.textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => {
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2400);
+    }
+
+    if (exportBtn) {
+      exportBtn.addEventListener('click', () => {
+        const dummyData = {
+          exported_at: new Date().toISOString(),
+          app: "Pilogy Numerology",
+          profiles: [
+            { name: "Lê Minh Quân", dob: "1994-08-16", life_path: 11 },
+            { name: "Nguyễn Thu Hà", dob: "1998-03-24", life_path: 9 },
+            { name: "Trần Bảo Nam", dob: "2001-11-05", life_path: 1 }
+          ]
+        };
+        const blob = new Blob([JSON.stringify(dummyData, null, 2)], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `pilogy-profiles-${Date.now()}.json`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+        showToast('Đã tải xuống tập tin JSON');
+      });
+    }
+
+    if (clearCacheBtn) {
+      clearCacheBtn.addEventListener('click', () => {
+        if (cacheDisplay) cacheDisplay.textContent = '0';
+        if (cacheStatusText) {
+          cacheStatusText.textContent = 'Đã dọn dẹp';
+          cacheStatusText.classList.add('text-secondary');
+        }
+        showToast('Đã giải phóng bộ nhớ đệm luận giải');
+      });
+    }
+
+    function toggleModal(open) {
+      if (!dangerModal) return;
+      if (open) {
+        dangerModal.classList.remove('opacity-0', 'pointer-events-none');
+      } else {
+        dangerModal.classList.add('opacity-0', 'pointer-events-none');
+      }
+    }
+
+    if (openDangerModalBtn) openDangerModalBtn.addEventListener('click', () => toggleModal(true));
+    if (cancelDeleteBtn) cancelDeleteBtn.addEventListener('click', () => toggleModal(false));
+    if (modalBackdrop) modalBackdrop.addEventListener('click', () => toggleModal(false));
+
+    if (confirmDeleteBtn) {
+      confirmDeleteBtn.addEventListener('click', () => {
+        toggleModal(false);
+        if (profileDisplay) profileDisplay.textContent = '0';
+        if (cacheDisplay) cacheDisplay.textContent = '0';
+        showToast('Đã xóa toàn bộ hồ sơ trên máy');
+      });
+    }
+  })();
+</script></main></body></html>
+
+<!-- V1-01: Chào mừng - Thần số học Pilogy -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_blank" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { colors: { "outline-variant": "#ccc4cd", "background": "#fef7ff", "primary-fixed": "#f0dbff", "outline": "#7b757d", "surface-container-highest": "#e8dfed", "on-secondary-fixed": "#261900", "inverse-primary": "#d4bfe3", "inverse-surface": "#332f39", "tertiary-container": "#4b4742", "on-tertiary-container": "#bbb5af", "tertiary": "#34312c", "inverse-on-surface": "#f6eefc", "on-tertiary-fixed-variant": "#4a4641", "error": "#ba1a1a", "surface-variant": "#e8dfed", "surface": "#fef7ff", "on-error": "#ffffff", "on-tertiary-fixed": "#1e1b17", "on-secondary": "#ffffff", "on-surface": "#1e1a23", "surface-container-low": "#f9f1ff", "on-surface-variant": "#4a454c", "secondary-fixed-dim": "#e4c284", "on-primary-container": "#c3aed2", "surface-bright": "#fef7ff", "primary-fixed-dim": "#d4bfe3", "on-error-container": "#93000a", "surface-dim": "#dfd7e5", "surface-container-lowest": "#ffffff", "error-container": "#ffdad6", "on-tertiary": "#ffffff", "tertiary-fixed-dim": "#ccc5bf", "surface-tint": "#695877", "tertiary-fixed": "#e8e1da", "on-primary": "#ffffff", "surface-container": "#f3ebf9", "on-primary-fixed-variant": "#50405e", "secondary-container": "#ffdb9b", "on-secondary-fixed-variant": "#5a4311", "on-background": "#1e1a23", "secondary-fixed": "#ffdea5", "on-primary-fixed": "#231531", "on-secondary-container": "#795f2b", "secondary": "#745a27", "primary-container": "#51415f", "surface-container-high": "#eee5f3", "primary": "#3a2b47" }, borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, spacing: { "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-lg": "1.5rem", "space-xl": "2.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, fontFamily: { "label-md": ["Inter"], "body-md": ["Inter"], "display-numeral": ["Playfair Display"], "display-numeral-mobile": ["Playfair Display"], "body-lg": ["Inter"], "label-sm": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "body-sm": ["Inter"], "headline-sm": ["Playfair Display"], "headline-lg": ["Playfair Display"] }, fontSize: { "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,44px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-full"><main class="flex-1 w-full bg-surface pt-safe pb-safe"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Top Emblem & Branding Header -->
+<div class="flex flex-col items-center text-center mt-space-md mb-space-lg">
+<div class="relative w-24 h-24 flex items-center justify-center mb-space-md">
+<div class="absolute inset-0 rounded-full bg-surface-container opacity-60"></div>
+<!-- Pythagorean Octagram / Sacred Geometry Emblem (Pure SVG inline, refined editorial) -->
+<svg class="w-16 h-16 text-secondary transform transition-transform duration-700 hover:rotate-45" fill="none" viewbox="0 0 100 100">
+<circle class="text-outline-variant" cx="50" cy="50" r="44" stroke="currentColor" stroke-dasharray="2 3" stroke-width="1"></circle>
+<circle class="text-secondary" cx="50" cy="50" r="36" stroke="currentColor" stroke-width="1.2"></circle>
+<circle class="text-outline" cx="50" cy="50" r="14" stroke="currentColor" stroke-width="0.8"></circle>
+<!-- 8-point geometric star vertices -->
+<polygon class="text-primary-container" fill="none" points="50,6 59,38 91,41 65,60 74,92 50,72 26,92 35,60 9,41 41,38" stroke="currentColor" stroke-width="1.2"></polygon>
+<!-- Micro center core -->
+<circle class="text-secondary" cx="50" cy="50" fill="currentColor" r="3"></circle>
+</svg>
+</div>
+<!-- App Name Wordmark -->
+<div class="inline-flex items-center gap-space-xs bg-surface-container-high px-space-md py-1 rounded-full mb-space-sm shadow-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-widest uppercase">PILOGY NUMEROLOGY</span>
+</div>
+<!-- Headline -->
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-primary tracking-tight max-w-xs leading-snug">
+      Thấu hiểu bản thân qua Thần số học Pythagoras
+    </h1>
+<!-- Editorial Subtitle -->
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-sm max-w-sm leading-relaxed">
+      Khám phá bức tranh nội tâm, năng lượng ngày sinh và chu kỳ cá nhân bằng phương pháp khoa học chiêm nghiệm chuẩn xác.
+    </p>
+</div>
+<!-- Editorial Visual Vignette (Bento Hero Accent) -->
+<div class="relative w-full h-44 rounded-xl overflow-hidden mb-space-lg shadow-sm bg-surface-container-low flex items-center justify-between px-space-lg">
+<img class="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-25" data-alt="Minimalist architectural still life with pristine beige parchment journal, bronze mathematical compass, golden ratio spiral drawing, soft natural ambient daylight, muted purple and warm gold luxury editorial aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAmUphfSvglek5xBCL6xrqxPD-t1PQTteR4ma8YRVtgxfmHO2bL4SF7o0KYwuQruWLd9Neg-0lwUx2SU_Z--AEVxlVAg-u0ZS5ID_v8kmjwbGqGF8VCiMbpGIvwtFzqjrgDwNEpJrcqHJ9d8B3t50obhhHtM62dt_jlL9BOITB7WZaUtSLCGqJIwbFNNGJ-bwToEw2h890408Spn-oyyCXreQJLVwo5hNT79ChNOlc"/>
+<div class="relative z-10 flex flex-col justify-center max-w-[210px]">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-1">Hệ thức Pythagoras</span>
+<p class="font-headline-sm text-headline-sm text-primary leading-tight">
+        Con số là cốt lõi của mọi biểu hiện
+      </p>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-1 italic">
+        – Triết gia Pythagoras xứ Samos
+      </span>
+</div>
+<div class="relative z-10 w-20 h-20 rounded-full bg-surface-container-lowest/80 backdrop-blur-sm flex flex-col items-center justify-center shadow-sm">
+<span class="font-display-numeral-mobile text-headline-lg-mobile text-primary leading-none">9</span>
+<span class="font-label-sm text-label-sm text-secondary-container-on font-semibold">TẦNG NĂNG LƯỢNG</span>
+</div>
+</div>
+<!-- 3 Pillar Value Propositions -->
+<div class="flex flex-col gap-space-sm mb-space-xl">
+<!-- Value Point 1 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">auto_stories</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Luận giải chuyên sâu &amp; khách quan</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-normal">
+          Dựa trên ma trận biểu đồ 3×3 và định vị chu kỳ năm cá nhân chuẩn toán học, tinh tế và không mê tín.
+        </p>
+</div>
+</div>
+<!-- Value Point 2 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">security</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Bảo mật dữ liệu cá nhân cục bộ</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-normal">
+          Toàn bộ họ tên và ngày sinh chỉ lưu an toàn trong thiết bị của bạn, bảo vệ quyền riêng tư tuyệt đối.
+        </p>
+</div>
+</div>
+<!-- Value Point 3 -->
+<div class="flex items-start gap-space-md p-space-md rounded-xl bg-surface-container-lowest shadow-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary" style="font-variation-settings: 'FILL' 1;">no_accounts</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Không cần tài khoản hay mật khẩu</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-normal">
+          Mở ứng dụng và khám phá bản mệnh ngay lập tức mà không phải qua bất kỳ bước đăng ký phiền toái nào.
+        </p>
+</div>
+</div>
+</div>
+<!-- Interactive Call to Actions -->
+<div class="flex flex-col gap-space-sm items-center w-full">
+<!-- Primary CTA Button -->
+<button class="w-full h-[52px] rounded-xl bg-primary text-on-primary font-body-md text-body-md font-medium flex items-center justify-center gap-space-sm shadow-md transition-all active:scale-[0.98] hover:bg-primary-container" id="btn-start" type="button">
+<span>Bắt đầu khám phá</span>
+<span class="material-symbols-outlined text-on-primary">arrow_forward</span>
+</button>
+<!-- Secondary Restore Profile CTA -->
+<button class="w-full h-11 rounded-xl bg-surface-container text-primary font-body-md text-body-md font-medium flex items-center justify-center gap-space-xs transition-all active:scale-[0.98] hover:bg-surface-container-high" id="btn-restore" type="button">
+<span class="material-symbols-outlined text-secondary" style="font-size: 20px;">folder_open</span>
+<span>Tôi đã có hồ sơ đã lưu</span>
+</button>
+</div>
+<!-- Editorial Micro-Notice Modal Anchor / Subtle Drawer Preview (Hidden by default, activated on restore click) -->
+<div class="hidden mt-space-md p-space-md rounded-xl bg-surface-container-highest transition-all duration-300" id="restore-drawer">
+<div class="flex items-center justify-between mb-space-xs">
+<span class="font-label-sm text-label-sm text-primary uppercase font-semibold">Tải hồ sơ thiết bị</span>
+<button class="text-on-surface-variant flex items-center" id="btn-close-drawer" type="button">
+<span class="material-symbols-outlined" style="font-size: 18px;">close</span>
+</button>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+      Ứng dụng sẽ tự động rà soát dữ liệu đã lưu trong bộ nhớ máy cục bộ của bạn.
+    </p>
+<div class="p-space-sm rounded-lg bg-surface-container-lowest flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary" style="font-variation-settings: 'FILL' 1;">person_pin</span>
+<div class="flex flex-col">
+<span class="font-body-sm text-body-sm font-medium text-on-surface">Hồ sơ gần nhất</span>
+<span class="font-label-sm text-label-sm text-outline">Lưu ngày 12/05/2024</span>
+</div>
+</div>
+<button class="px-space-md py-1 rounded bg-secondary-container text-on-secondary-container font-label-sm text-label-sm" type="button">
+        Mở lại
+      </button>
+</div>
+</div>
+<!-- Footer Version Note -->
+<div class="mt-space-lg text-center flex flex-col items-center gap-1">
+<div class="flex items-center gap-1.5 text-outline">
+<span class="material-symbols-outlined" style="font-size: 14px;">verified_user</span>
+<span class="font-label-sm text-label-sm tracking-wide">
+        Phiên bản 1.0 (Phase 1) · Tương thích hoàn toàn trên thiết bị của bạn
+      </span>
+</div>
+<span class="font-label-sm text-label-sm text-outline-variant">
+      Mã hóa chuẩn &amp; Tính toán offline
+    </span>
+</div>
+</div>
+<script>
+  (function() {
+    const btnRestore = document.getElementById('btn-restore');
+    const drawer = document.getElementById('restore-drawer');
+    const btnClose = document.getElementById('btn-close-drawer');
+    const btnStart = document.getElementById('btn-start');
+
+    if (btnRestore && drawer) {
+      btnRestore.addEventListener('click', function() {
+        drawer.classList.toggle('hidden');
+        if (!drawer.classList.contains('hidden')) {
+          drawer.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      });
+    }
+
+    if (btnClose && drawer) {
+      btnClose.addEventListener('click', function() {
+        drawer.classList.add('hidden');
+      });
+    }
+
+    if (btnStart) {
+      btnStart.addEventListener('click', function() {
+        // Subtle micro-feedback on entry
+        btnStart.classList.add('opacity-90');
+        setTimeout(() => {
+          btnStart.classList.remove('opacity-90');
+        }, 150);
+      });
+    }
+  })();
+</script></main></body></html>
+
+<!-- V1-05: Chi tiết chỉ số - Thần số học Pilogy -->
+<!DOCTYPE html>
+
+<html class="h-full" lang="vi"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><title>Pilogy Numerology</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Playfair+Display:ital,wght@0,500;0,600;1,400&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;min-height:100%;margin:0;padding:0;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary": "#ffffff", "background": "#fef7ff", "on-secondary": "#ffffff", "on-primary-fixed": "#231531", "tertiary": "#34312c", "on-error": "#ffffff", "primary": "#3a2b47", "outline": "#7b757d", "surface-container-lowest": "#ffffff", "surface": "#fef7ff", "on-error-container": "#93000a", "on-tertiary-container": "#bbb5af", "on-tertiary": "#ffffff", "surface-container-high": "#eee5f3", "secondary-fixed": "#ffdea5", "on-tertiary-fixed": "#1e1b17", "on-primary-container": "#c3aed2", "on-primary-fixed-variant": "#50405e", "error": "#ba1a1a", "surface-dim": "#dfd7e5", "inverse-on-surface": "#f6eefc", "inverse-primary": "#d4bfe3", "secondary-container": "#ffdb9b", "surface-variant": "#e8dfed", "on-surface-variant": "#4a454c", "on-secondary-fixed-variant": "#5a4311", "on-surface": "#1e1a23", "on-secondary-container": "#795f2b", "on-secondary-fixed": "#261900", "secondary-fixed-dim": "#e4c284", "outline-variant": "#ccc4cd", "surface-container": "#f3ebf9", "primary-fixed": "#f0dbff", "tertiary-container": "#4b4742", "surface-tint": "#695877", "surface-container-low": "#f9f1ff", "inverse-surface": "#332f39", "tertiary-fixed-dim": "#ccc5bf", "primary-container": "#51415f", "on-background": "#1e1a23", "surface-bright": "#fef7ff", "secondary": "#745a27", "tertiary-fixed": "#e8e1da", "on-tertiary-fixed-variant": "#4a4641", "surface-container-highest": "#e8dfed", "primary-fixed-dim": "#d4bfe3", "error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "space-lg": "1.5rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-md": "1rem", "margin": "1.25rem", "space-sm": "0.5rem", "gutter": "1rem" }, "fontFamily": { "label-sm": ["Inter"], "body-sm": ["Inter"], "display-numeral-mobile": ["Playfair Display"], "headline-md": ["Playfair Display"], "headline-lg": ["Playfair Display"], "display-numeral": ["Playfair Display"], "label-md": ["Inter"], "headline-sm": ["Playfair Display"], "body-lg": ["Inter"], "headline-lg-mobile": ["Playfair Display"], "body-md": ["Inter"] }, "fontSize": { "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "body-sm": ["12px", { "lineHeight": "18px", "letterSpacing": "0.01em", "fontWeight": "400" }], "display-numeral-mobile": ["48px", { "lineHeight": "56px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "headline-md": ["22px", { "lineHeight": "30px", "letterSpacing": "0em", "fontWeight": "600" }], "headline-lg": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "display-numeral": ["64px", { "lineHeight": "72px", "letterSpacing": "-0.02em", "fontWeight": "500" }], "label-md": ["13px", { "lineHeight": "18px", "letterSpacing": "0.02em", "fontWeight": "500" }], "headline-sm": ["18px", { "lineHeight": "26px", "letterSpacing": "0.01em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "26px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.01em", "fontWeight": "600" }], "body-md": ["14px", { "lineHeight": "22px", "letterSpacing": "0em", "fontWeight": "400" }] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased flex flex-col min-h-full"><header class="fixed top-0 inset-x-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(81,65,95,0.04)] pt-safe"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Quay lại" class="w-11 h-11 -ml-2 flex items-center justify-center text-primary rounded-full hover:bg-surface-variant transition-colors" onclick="history.back()" type="button"><span class="material-symbols-outlined text-[24px]">arrow_back</span></button><h1 class="font-headline-sm text-headline-sm text-primary tracking-tight truncate max-w-[210px]">Chi Tiết Chỉ Số Thần Số Học</h1></div><div class="flex items-center gap-space-sm"><button aria-label="Tùy chọn" class="w-11 h-11 flex items-center justify-center text-on-surface-variant hover:text-on-surface rounded-full hover:bg-surface-variant transition-colors" type="button"><span class="material-symbols-outlined text-[22px]">more_vert</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-safe bg-surface"><div class="flex flex-col w-full pb-safe">
+<!-- Interactive Top Sub-bar / Profile Context -->
+<section class="px-margin pt-space-sm pb-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-2.5 h-2.5 rounded-full bg-secondary"></div>
+<div class="flex flex-col min-w-0">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider truncate">Hồ sơ chiêm nghiệm</span>
+<span class="font-body-md text-body-md text-on-surface font-medium truncate">Nguyễn Minh Anh · 15/08/1995</span>
+</div>
+</div>
+<div class="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-surface-container-high text-on-surface-variant text-[11px] font-medium">
+<span class="material-symbols-outlined text-[14px] text-secondary">verified</span>
+<span>Định danh P-07</span>
+</div>
+</section>
+<!-- Editorial Top Hero Card -->
+<section class="px-margin mt-space-sm">
+<div class="relative overflow-hidden rounded-xl bg-surface-container-lowest p-6 shadow-sm">
+<!-- Subtle geometric radiant pattern (inline SVG, under 1kb) -->
+<div class="absolute -right-12 -top-12 w-48 h-48 opacity-10 pointer-events-none">
+<svg class="w-full h-full text-primary" fill="none" stroke="currentColor" stroke-width="1.2" viewbox="0 0 100 100">
+<circle cx="50" cy="50" r="45"></circle>
+<circle cx="50" cy="50" r="30"></circle>
+<polygon points="50,5 93,75 7,75"></polygon>
+<polygon points="50,95 7,25 93,25"></polygon>
+</svg>
+</div>
+<div class="flex flex-col items-center text-center relative z-10">
+<!-- Classification pill -->
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm uppercase tracking-widest">
+<span class="material-symbols-outlined text-[13px] text-secondary">auto_stories</span>
+          Chỉ số nền tảng cốt lõi
+        </span>
+<!-- Focal Life Path 7 Emblem -->
+<div class="my-3 flex flex-col items-center justify-center">
+<div class="relative flex items-center justify-center w-24 h-24 rounded-full bg-gradient-to-br from-surface-container-high via-surface-container-lowest to-surface-variant shadow-inner">
+<span class="font-display-numeral-mobile text-display-numeral-mobile text-primary font-semibold select-none">
+              7
+            </span>
+<div class="absolute inset-0 rounded-full bg-secondary-fixed/20 blur-sm pointer-events-none"></div>
+</div>
+<span class="mt-2 font-headline-md text-headline-md text-primary tracking-tight">
+            Số 7 · Người Tìm Kiếm Chân Lý
+          </span>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs mt-1">
+            Bậc thầy tri thức sâu sắc, trực giác tâm thức và tư duy độc lập
+          </p>
+</div>
+<!-- Energy Keywords Pills -->
+<div class="flex flex-wrap items-center justify-center gap-1.5 mt-3 pt-3">
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md">
+            Trực giác nhạy bén
+          </span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md">
+            Triết học
+          </span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md">
+            Độc lập nội tâm
+          </span>
+<span class="px-3 py-1 rounded-full bg-surface-container text-primary font-label-md text-label-md">
+            Chiêm nghiệm
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- Educational Formula Recap Pill -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-surface-container-low p-4 flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[15px] text-secondary">calculate</span>
+          Phương thức quy nạp Pythagoras
+        </span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Bậc 1 chuẩn hóa</span>
+</div>
+<div class="font-body-md text-body-md text-on-surface leading-relaxed flex flex-wrap items-center gap-x-1 gap-y-1">
+<span class="text-on-surface-variant">Ngày sinh:</span>
+<span class="font-semibold text-primary">15/08/1995</span>
+<span class="text-outline">→</span>
+<span class="bg-surface-container px-2 py-0.5 rounded text-on-surface font-mono text-[12px]">(1+5) + (0+8) + (1+9+9+5)</span>
+<span class="text-outline">=</span>
+<span class="font-mono text-[12px] text-on-surface">6 + 8 + 24(6) = 20</span>
+<span class="text-outline">→</span>
+<span class="font-mono font-semibold text-secondary">2 + 0 = 7*</span>
+</div>
+<p class="font-body-sm text-body-sm text-outline italic">
+        *Theo quy chuẩn trường phái Pythagoras Bắc Mỹ &amp; phương Đông, số tổng 20 rút gọn về trường sóng năng lượng tri thức số 7.
+      </p>
+</div>
+</section>
+<!-- Editorial Section 1: Ý nghĩa cốt lõi & Sứ mệnh tâm thức -->
+<section class="px-margin mt-space-lg">
+<div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">psychology_alt</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-tight">Ý Nghĩa Cốt Lõi &amp; Sứ Mệnh</h2>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Tần số rung động nội sinh</p>
+</div>
+</div>
+<div class="font-body-md text-body-md text-on-surface leading-relaxed flex flex-col gap-3 pt-1">
+<p>
+          Trong hệ thống số học Pythagoras, số <strong>7</strong> là biểu tượng thiêng liêng kết hợp giữa sự vững chãi của thực tế hữu hình (hình vuông - 4) và chiều kích vô biên của tinh thần (tam giác - 3). Người mang số Đường đời 7 đến với kiếp sống này như một học giả lữ hành, khao khát lý giải cội nguồn của mọi nguyên lý thay vì chấp nhận những kết luận hời hợt.
+        </p>
+<p class="bg-surface-container-low p-3.5 rounded-lg font-body-sm text-body-sm text-on-surface-variant italic">
+          "Sứ mệnh của bạn không phải là tích lũy thông tin bề nổi, mà là chuyển hóa tri thức sách vở thành minh triết sống thông qua những trải nghiệm cá nhân sâu sắc và sự thấu suốt độc bản."
+        </p>
+<p>
+          Bạn có nhu cầu bẩm sinh được lui về không gian tĩnh lặng một mình để sạc lại trường năng lượng. Đây không phải sự xa lánh xã hội, mà là nghi thức cần thiết để bộ lọc tư duy của bạn phân tích, tinh luyện và khám phá ra những chân lý bị lớp bụi thường nhật che khuất.
+        </p>
+</div>
+<!-- Illustrated Mini Graphic Card -->
+<div class="mt-2 rounded-lg overflow-hidden bg-surface-container-high relative h-36 flex items-end p-4">
+<img class="absolute inset-0 w-full h-full object-cover" data-alt="A peaceful minimalist scholar workspace at twilight, antique wooden desk, solitary open notebook, warm soft desk lamp, quiet atmospheric interior with soft purple and golden ambient glow, cinematic editorial photograph" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD6FGof_4i2dDu4tUovXj64XcPmXTqQiPC_xiyMeP6IbWZd4McjvOYNDi4V7j6UAMQibHes5wREsPgqcpteW-bzFYeHI6Y5FIhy4G3bRoA9csCdyyInoHQ3mIKIj6mzHctUFFJdnyJCkb5zUeHMGbm7pacgw0sXzed2Lo-P9B-1BONBX9_9ZIFdYWb3v9_hYeeOauFSm-tTDf5VJAnOisLfeNF2f0GDR8ZUdF14sVs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-transparent"></div>
+<div class="relative z-10 flex flex-col">
+<span class="font-label-sm text-label-sm text-secondary-fixed uppercase tracking-wider">Không gian chuyển hóa</span>
+<span class="font-body-sm text-body-sm text-on-primary">Sự tĩnh lặng là nguồn dưỡng chất tối thượng của tư duy</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Section 2: Điểm mạnh vượt trội -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">workspace_premium</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-tight">Điểm Mạnh Vượt Trội</h2>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Năng khiếu bẩm sinh</p>
+</div>
+</div>
+<div class="flex flex-col gap-3 mt-1">
+<!-- Item 1 -->
+<div class="flex gap-3 items-start p-3 rounded-lg bg-surface-container-low">
+<div class="w-7 h-7 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">visibility</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-primary">Khả năng thấu thị &amp; Trực giác sắc bén</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed">
+              Bạn dễ dàng phát hiện điều thiếu trung thực hoặc động cơ ngầm của đối phương. Giác quan thứ sáu phát triển tự nhiên khi bạn giữ được tâm an tĩnh.
+            </span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex gap-3 items-start p-3 rounded-lg bg-surface-container-low">
+<div class="w-7 h-7 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">local_library</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-primary">Năng lực tự học &amp; Nghiên cứu chuyên sâu</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed">
+              Khả năng tập trung tuyệt đối vào các chủ đề phức tạp, bóc tách vấn đề tới gốc rễ mà không bị chi phối bởi các xu hướng đám đông.
+            </span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="flex gap-3 items-start p-3 rounded-lg bg-surface-container-low">
+<div class="w-7 h-7 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-[16px]">self_improvement</span>
+</div>
+<div class="flex flex-col">
+<span class="font-body-md text-body-md font-semibold text-primary">Điềm tĩnh &amp; Bản lĩnh trước nghịch cảnh</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant mt-0.5 leading-relaxed">
+              Nhìn nhận những thử thách dưới góc độ bài học tiến hóa, ít khi rơi vào hoảng loạn vô căn cứ nhờ nền tảng nội tâm độc lập.
+            </span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Section 3: Thách thức cần lưu ý -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-surface-container-lowest p-5 shadow-sm flex flex-col gap-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-lg bg-surface-variant flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">warning_amber</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-primary tracking-tight">Thách Thức Cần Cân Bằng</h2>
+<p class="font-label-sm text-label-sm text-outline uppercase tracking-wider">Vùng mù nhận thức</p>
+</div>
+</div>
+<div class="flex flex-col gap-2.5 mt-1 font-body-md text-body-md text-on-surface">
+<div class="p-3 rounded-lg bg-surface-container-high flex flex-col gap-1">
+<div class="flex items-center gap-1.5 font-medium text-primary">
+<span class="material-symbols-outlined text-[16px] text-secondary">do_not_disturb_on</span>
+<span>Xu hướng khép kín và cô lập</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Ranh giới giữa việc cần không gian riêng và việc xa lánh thực tế rất mong manh. Đôi khi bạn dựng lên bức tường vô hình khiến người thân cảm thấy xa cách hoặc khó đồng hành.
+          </p>
+</div>
+<div class="p-3 rounded-lg bg-surface-container-high flex flex-col gap-1">
+<div class="flex items-center gap-1.5 font-medium text-primary">
+<span class="material-symbols-outlined text-[16px] text-secondary">do_not_disturb_on</span>
+<span>Tiêu chuẩn quá khắt khe &amp; Hay hoài nghi</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Óc phân tích sắc sảo có thể chuyển hóa thành sự phán xét thầm lặng hoặc đa nghi quá mức, gây cản trở niềm tin trong các mối quan hệ tình cảm và hợp tác.
+          </p>
+</div>
+</div>
+</div>
+</section>
+<!-- Editorial Section 4: Lời khuyên chiêm nghiệm Pythagoras -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-primary-container text-on-primary-container p-5 shadow-sm flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-[20px] text-secondary-container">spa</span>
+<h2 class="font-headline-sm text-headline-sm text-on-primary tracking-tight">Lời Khuyên Pythagoras</h2>
+</div>
+<span class="px-2 py-0.5 rounded text-[11px] font-medium bg-primary text-secondary-fixed uppercase">
+          Chánh niệm
+        </span>
+</div>
+<p class="font-body-md text-body-md text-on-primary-container leading-relaxed italic">
+        "Hãy bước ra thiên nhiên khi tâm trí bạn bắt đầu quay cuồng với quá nhiều phân tích. Nước và cây cối sẽ cân bằng lại tính hoài nghi, đưa bạn trở về với sự thông tuệ tự nhiên của trái tim."
+      </p>
+<div class="flex flex-col gap-2 pt-2">
+<div class="flex items-center gap-2 text-on-primary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span>
+<span>Dành 15 phút mỗi ngày để tĩnh tâm hoặc viết nhật ký nội tâm.</span>
+</div>
+<div class="flex items-center gap-2 text-on-primary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span>
+<span>Học cách cởi mở chia sẻ cảm xúc trước khi tìm giải pháp lý trí.</span>
+</div>
+<div class="flex items-center gap-2 text-on-primary font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary-container">check_circle</span>
+<span>Tin tưởng tiếng nói đầu tiên của trực giác trước khi suy luận can thiệp.</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Feedback & Journaling Note Card -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-surface-container-lowest p-4 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-surface-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[20px]">edit_note</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-sm text-[15px] text-primary">Ghi chép cảm ngộ của bạn</span>
+<span class="font-body-sm text-body-sm text-outline">Lưu lại suy ngẫm cho chỉ số Đường đời 7</span>
+</div>
+</div>
+<button class="px-3.5 py-1.5 rounded-lg bg-surface-container-high hover:bg-surface-variant text-primary font-label-md text-label-md transition-colors active:scale-95" onclick="alert('Đã mở trang sổ tay chiêm nghiệm cho Nguyễn Minh Anh.')" type="button">
+        Ghi chép
+      </button>
+</div>
+</section>
+<!-- Backend State UI Support Widget -->
+<section class="px-margin mt-space-md">
+<div class="rounded-xl bg-surface-container p-3.5 flex items-center justify-between cursor-pointer active:opacity-80 transition-opacity" id="sync-banner" onclick="triggerSyncSimulation()">
+<div class="flex items-center gap-2.5 min-w-0">
+<span class="material-symbols-outlined text-[18px] text-secondary shrink-0" id="sync-icon">sync</span>
+<div class="flex flex-col min-w-0">
+<span class="font-body-sm text-body-sm text-on-surface truncate font-medium">Đồng bộ từ hệ thống luận giải Pythagoras v1.0</span>
+<span class="font-label-sm text-[11px] text-outline truncate" id="sync-status">Chạm để tải lại nếu có cập nhật mới nhất.</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-[16px] text-outline shrink-0 ml-2">chevron_right</span>
+</div>
+</section>
+<!-- AdMob Adaptive Banner Placeholder -->
+<section class="px-margin mt-space-lg mb-space-sm">
+<div class="w-full h-[52px] rounded-lg bg-surface-container-high flex flex-col items-center justify-center text-center px-4 relative overflow-hidden">
+<div class="flex items-center gap-1.5 opacity-60">
+<span class="text-[10px] tracking-wider uppercase font-semibold text-outline px-1.5 py-0.5 rounded bg-surface-variant">[QC]</span>
+<span class="font-label-sm text-label-sm text-outline">Google AdMob Adaptive Banner</span>
+</div>
+<span class="text-[10px] text-outline/80 mt-0.5">320 × 50 / Tối ưu hoá không gian màn hình thiết bị</span>
+</div>
+</section>
+</div>
+<script>
+  function triggerSyncSimulation() {
+    const icon = document.getElementById('sync-icon');
+    const status = document.getElementById('sync-status');
+    if (!icon || !status) return;
+
+    icon.classList.add('animate-spin');
+    status.textContent = 'Đang đồng bộ dữ liệu thời gian thực...';
+
+    setTimeout(() => {
+      icon.classList.remove('animate-spin');
+      status.textContent = 'Dữ liệu đã cập nhật lúc ' + new Date().toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' });
+    }, 900);
+  }
+</script></main></body></html>

@@ -1,0 +1,47 @@
+{
+  "source": "config/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png",
+  "sourceSha256": "a4805446d046d93619ef035f6da24ec8a5c8ede0b7afebd2da274fd4771e2ea5",
+  "background": "#18193E",
+  "adaptiveInsetPercent": 16.666667,
+  "androidDensities": {
+    "mdpi": [
+      48,
+      108
+    ],
+    "hdpi": [
+      72,
+      162
+    ],
+    "xhdpi": [
+      96,
+      216
+    ],
+    "xxhdpi": [
+      144,
+      324
+    ],
+    "xxxhdpi": [
+      192,
+      432
+    ]
+  },
+  "iosFiles": [
+    "Icon-App-1024x1024@1x.png",
+    "Icon-App-20x20@1x.png",
+    "Icon-App-20x20@2x.png",
+    "Icon-App-20x20@3x.png",
+    "Icon-App-29x29@1x.png",
+    "Icon-App-29x29@2x.png",
+    "Icon-App-29x29@3x.png",
+    "Icon-App-40x40@1x.png",
+    "Icon-App-40x40@2x.png",
+    "Icon-App-40x40@3x.png",
+    "Icon-App-60x60@2x.png",
+    "Icon-App-60x60@3x.png",
+    "Icon-App-76x76@1x.png",
+    "Icon-App-76x76@2x.png",
+    "Icon-App-83.5x83.5@2x.png"
+  ],
+  "allIosIconsOpaque": true,
+  "identifiersChanged": false
+}

@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "data": {
+    "apiVersion": "v1",
+    "calculationVersion": "v1",
+    "defaultLocale": "vi",
+    "supportedLocales": [
+      "vi"
+    ],
+    "maxRequestBytes": 4096,
+    "calculationAvailable": true,
+    "features": {
+      "calculations": true,
+      "interpretationSummaries": true,
+      "fullInterpretations": true,
+      "definitions": true
+    }
+  }
+}

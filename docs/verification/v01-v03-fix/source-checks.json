@@ -1,0 +1,24 @@
+{
+  "changedExistingFiles": [
+    "lib/main.dart",
+    "lib/core/presentation/pilogy_scaffold.dart",
+    "lib/features/numerology/presentation/calculation_widgets.dart",
+    "lib/features/discover/presentation/discover_screen.dart",
+    "lib/features/welcome/presentation/welcome_screen.dart",
+    "lib/features/profiles/presentation/widgets/profile_list.dart",
+    "android/app/src/main/AndroidManifest.xml",
+    "ios/Runner/Info.plist"
+  ],
+  "newApplicationFiles": [
+    "lib/core/config/app_orientation.dart",
+    "lib/features/discover/presentation/discover_cards.dart",
+    "lib/features/discover/presentation/discover_quotes.dart"
+  ],
+  "referenceAndConfigPreserved": true,
+  "apiModelsRepositoriesAndStoragePreserved": true,
+  "otherSixScreensPreserved": true,
+  "portraitDeclarationsMatch": true,
+  "foundationExitCode": 0,
+  "screenshotsCaptured": false,
+  "renderedScreensCompared": false
+}

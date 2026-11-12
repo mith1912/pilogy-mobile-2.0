@@ -1,0 +1,348 @@
+{
+  "success": true,
+  "data": {
+    "calculationVersion": "v1",
+    "locale": "vi",
+    "contentVersion": "v1.0.0-draft",
+    "status": "draft",
+    "plannedIndices": [
+      "lifePath",
+      "soulUrge",
+      "personality",
+      "expression",
+      "birthday",
+      "attitude",
+      "maturity",
+      "personalYear",
+      "personalMonth"
+    ],
+    "definitions": [
+      {
+        "type": "lifePath",
+        "title": "Số chủ đạo",
+        "englishTitle": "Life Path",
+        "description": "Tổng rút gọn các thành phần ngày sinh.",
+        "source": "birthDate",
+        "displayOrder": 1,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "soulUrge",
+        "title": "Số linh hồn",
+        "englishTitle": "Soul Urge",
+        "description": "Tổng giá trị nguyên âm trong họ tên.",
+        "source": "fullName",
+        "displayOrder": 2,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "personality",
+        "title": "Số nhân cách",
+        "englishTitle": "Personality",
+        "description": "Tổng giá trị phụ âm trong họ tên.",
+        "source": "fullName",
+        "displayOrder": 3,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "expression",
+        "title": "Số biểu đạt",
+        "englishTitle": "Expression",
+        "description": "Tổng giá trị tất cả chữ cái trong họ tên.",
+        "source": "fullName",
+        "displayOrder": 4,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "birthday",
+        "title": "Số ngày sinh",
+        "englishTitle": "Birthday",
+        "description": "Giá trị rút gọn của ngày sinh.",
+        "source": "birthDate",
+        "displayOrder": 5,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22
+        ]
+      },
+      {
+        "type": "attitude",
+        "title": "Số thái độ",
+        "englishTitle": "Attitude",
+        "description": "Tổng rút gọn tháng và ngày sinh.",
+        "source": "birthDate",
+        "displayOrder": 6,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "maturity",
+        "title": "Số trưởng thành",
+        "englishTitle": "Maturity",
+        "description": "Tổng rút gọn số chủ đạo và số biểu đạt.",
+        "source": "lifePath,expression",
+        "displayOrder": 7,
+        "supportsMasterNumbers": true,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          11,
+          22,
+          33
+        ]
+      },
+      {
+        "type": "personalYear",
+        "title": "Năm cá nhân",
+        "englishTitle": "Personal Year",
+        "description": "Chu kỳ theo năm của ngày tham chiếu.",
+        "source": "birthDate,referenceDate",
+        "displayOrder": 8,
+        "supportsMasterNumbers": false,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "type": "personalMonth",
+        "title": "Tháng cá nhân",
+        "englishTitle": "Personal Month",
+        "description": "Chu kỳ theo năm cá nhân và tháng tham chiếu.",
+        "source": "personalYear,referenceDate",
+        "displayOrder": 9,
+        "supportsMasterNumbers": false,
+        "availableValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "supportedValues": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ],
+    "missingContent": [
+      {
+        "index": "birthday",
+        "values": [
+          11,
+          22
+        ]
+      }
+    ]
+  }
+}

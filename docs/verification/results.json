@@ -1,0 +1,53 @@
+{
+  "recordedAt": "2026-11-08T17:58:56.351655+00:00",
+  "projectRoot": "/Users/sigmasolutions/Documents/Src/PLG/mobile",
+  "results": [
+    {
+      "command": "flutter --version",
+      "exitCode": -6,
+      "log": "flutter-version.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18838, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "dart --version",
+      "exitCode": 0,
+      "log": "dart-version.log",
+      "summary": "Dart SDK version: 3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\n"
+    },
+    {
+      "command": "flutter doctor -v",
+      "exitCode": -6,
+      "log": "flutter-doctorv.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18872, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "flutter pub get",
+      "exitCode": -6,
+      "log": "flutter-pub-get.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18889, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "dart format .",
+      "exitCode": -6,
+      "log": "dart-format-workspace.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18906, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "flutter analyze",
+      "exitCode": -6,
+      "log": "flutter-analyze.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18924, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "flutter test",
+      "exitCode": -6,
+      "log": "flutter-test.log",
+      "summary": "../../runtime/vm/cpuinfo_macos.cc: 42: error: unreachable code\nversion=3.1.5 (stable) (Tue Oct 24 04:57:17 2023 +0000) on \"macos_x64\"\npid=18941, thread=259, isolate_group=(nil)(0x0), isolate=(nil)(0x0)\nos=macos, arch=x64"
+    },
+    {
+      "command": "python3 scripts/verify_foundation.py",
+      "exitCode": 0,
+      "log": "scaffold-checks.log"
+    }
+  ]
+}

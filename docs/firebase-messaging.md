@@ -1,0 +1,21 @@
+# Firebase push notification setup
+
+Signing: config/key.properties uses alias/pass/storePass. These values were mapped to keyAlias/keyPassword/storePassword in android/key.properties; storeFile points to ../config/keystore.jks. Both files are ignored by Git. Originals remain intact. Keytool successfully verified the store password and alias; private-key password and actual release signing remain unverified.
+
+Native configuration copies are byte-identical to config/google-services.json and config/GoogleService-Info.plist, for existing application mt.numerology. No Firebase apps/projects were created. firebase_messaging 14.7.10 is pinned to match the existing Firebase Core 2.x dependency family; dependency resolution is pending. pubspec.lock does not yet include Messaging and must be regenerated with flutter pub get.
+
+After validated Firebase startup and the first rendered frame, the app requests OS notification permission. Permission denial does not block local profiles. iOS displays foreground alerts through APNs presentation options; Android displays foreground notification title/body as an in-app snackbar. In background/terminated state, the native Firebase SDK displays messages containing a notification payload. Tapping opens the app normally; there are no invented deep links or payload-driven actions. Data-only/background Dart processing is intentionally not implemented. Send non-sensitive notification content only. No device tokens or payloads are logged, stored in profile storage, or sent to the numerology API. Analytics remains disabled. Reminder preferences remain separate and do not schedule notifications.
+
+## Remaining console/device steps
+
+1. Android: install a rebuilt app on a device with Google Play services, open it and allow notifications (Android 13+). For an individual test, obtain FirebaseMessaging.instance.getToken() through a local debugger; keep it private. In the existing Firebase project's Messaging composer use Send test message with this token. Background the app and verify a notification appears; tap and confirm the app opens. Repeat while foregrounded for the in-app banner. Do not force-stop the app before testing.
+2. iOS: in Apple Developer enable Push Notifications for mt.numerology and regenerate the provisioning profile. In the existing Firebase project, Project settings → Cloud Messaging → Apple app configuration, upload an APNs authentication key with its correct Key ID and Team ID. Never commit the .p8 key. Xcode has Push Notifications and remote-notification background capability configured; Runner.entitlements uses development APNs for Debug and production for Release/Profile. Keep Firebase method swizzling enabled (the default). Use a correctly signed physical device build, allow notifications and wait for an APNs token before obtaining the FCM token. Test foreground/background/tap delivery separately.
+3. Verify denied permissions and network failure leave local profiles usable. OS notification settings control push permission; the existing reminder toggle is not a push opt-in switch. No topic subscriptions or server registration endpoint were invented. Production campaign targeting and any future in-app push preference require a separately specified flow.
+
+## Actual verification
+
+See verification/firebase-messaging/. Flutter pub get, dart format ., flutter analyze and flutter test were attempted but blocked by SDK cache write permissions. Direct Dart reports 3.13.7 stable on macos_x64, then formatting crashes at VM startup in cpuinfo_macos.cc. No passing dependency resolution, analysis, tests, native build or device delivery is claimed. Existing lockfile versions are unchanged; firebase_messaging has no resolved locked version yet.
+
+plutil validation passes for Info.plist, Runner.entitlements and the Xcode project. Native Firebase copies match originals. The foundation script passes preservation, native identity and XML/plist checks, then fails its existing route text-count assertion; this task did not change routes. No foundation-suite pass is claimed.
+
+References: https://firebase.google.com/docs/cloud-messaging/flutter/get-started and https://firebase.google.com/docs/cloud-messaging/flutter/receive-messages.

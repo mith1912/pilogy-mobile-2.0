@@ -1,0 +1,51 @@
+{
+  "recordedAt": "2026-11-08T18:30:15.201432+00:00",
+  "projectRoot": "/Users/sigmasolutions/Documents/Src/PLG/mobile",
+  "results": [
+    {
+      "command": "flutter pub get",
+      "exitCode": -6,
+      "log": "01-flutter-pub.log"
+    },
+    {
+      "command": "dart format .",
+      "exitCode": -6,
+      "log": "02-dart-format.log"
+    },
+    {
+      "command": "flutter analyze",
+      "exitCode": -6,
+      "log": "03-flutter-analyze.log"
+    },
+    {
+      "command": "flutter test",
+      "exitCode": -6,
+      "log": "04-flutter-test.log"
+    },
+    {
+      "command": "flutter build apk --debug",
+      "exitCode": -6,
+      "log": "05-flutter-build.log"
+    },
+    {
+      "command": "flutter build ios --simulator --debug --no-codesign",
+      "exitCode": -6,
+      "log": "06-flutter-build.log"
+    },
+    {
+      "command": "python3 scripts/verify_foundation.py",
+      "exitCode": 0,
+      "log": "07-python3-scripts-verify_foundation.py.log"
+    },
+    {
+      "command": "plutil -lint ios/Runner.xcodeproj/project.pbxproj ios/Runner/Info.plist ios/Runner/GoogleService-Info.plist",
+      "exitCode": 0,
+      "log": "08-plutil--lint.log"
+    },
+    {
+      "command": "ruby -c ios/Podfile",
+      "exitCode": 0,
+      "log": "09-ruby--c.log"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+PASS: design and Firebase files preserved byte-for-byte
+PASS: required project paths exist directly at /Users/sigmasolutions/Documents/Src/PLG/mobile
+PASS: Android ID and all iOS app configurations use mt.numerology
+PASS: native XML/plist/asset JSON parses; no unrendered template fields
+Traceback (most recent call last):
+  File "/Users/sigmasolutions/Documents/Src/PLG/mobile/scripts/verify_foundation.py", line 105, in <module>
+    main()
+  File "/Users/sigmasolutions/Documents/Src/PLG/mobile/scripts/verify_foundation.py", line 56, in main
+    assert router.count('GoRoute(path:') == 8
+AssertionError

@@ -1,0 +1,9 @@
+{
+  "pub-get": 1,
+  "format": 1,
+  "analyze": 1,
+  "test": 1,
+  "admob": 0,
+  "native-xml-parse": "pass",
+  "reference-sha256": "8de860431e3de93fe33ba51ef160681ee26cc7c161d9b083bb84e36e4c5a749b"
+}

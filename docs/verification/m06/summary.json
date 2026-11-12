@@ -1,0 +1,17 @@
+{
+  "protected_files_unchanged": 70,
+  "source_static_checks": "PASS",
+  "runtime_tests": "BLOCKED",
+  "android_build": "BLOCKED",
+  "ios_build": "BLOCKED",
+  "dependency": "google_mobile_ads 6.0.0 declared, not installed",
+  "sdk_required": "Flutter >=3.27.0 / Dart >=3.6.0",
+  "sdk_configured": "Flutter 3.13.9 / Dart VM 3.1.5",
+  "production_formats_disabled": [
+    "iOS banner (source value is an App ID)",
+    "Android App Open (source missing)",
+    "iOS App Open (source missing)"
+  ],
+  "screenshots_captured": false,
+  "live_ad_serving_verified": false
+}

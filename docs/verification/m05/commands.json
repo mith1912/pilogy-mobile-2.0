@@ -1,0 +1,50 @@
+{
+  "pub-get": {
+    "command": [
+      "flutter",
+      "pub",
+      "get"
+    ],
+    "returncode": -6
+  },
+  "format": {
+    "command": [
+      "dart",
+      "format",
+      "."
+    ],
+    "returncode": -6
+  },
+  "analyze": {
+    "command": [
+      "flutter",
+      "analyze"
+    ],
+    "returncode": -6
+  },
+  "test": {
+    "command": [
+      "flutter",
+      "test"
+    ],
+    "returncode": -6
+  },
+  "android-build": {
+    "command": [
+      "flutter",
+      "build",
+      "apk",
+      "--debug"
+    ],
+    "returncode": -6
+  },
+  "ios-build": {
+    "command": [
+      "flutter",
+      "build",
+      "ios",
+      "--simulator"
+    ],
+    "returncode": -6
+  }
+}

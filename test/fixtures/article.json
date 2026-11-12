@@ -1,0 +1,52 @@
+{
+  "success": true,
+  "data": {
+    "calculationVersion": "v1",
+    "locale": "vi",
+    "contentVersion": "v1.0.0-draft",
+    "interpretation": {
+      "index": "personality",
+      "value": 11,
+      "baseValue": 2,
+      "title": "Người Đánh Thức Trực Giác",
+      "subtitle": "Lắng nghe ánh sáng bên trong",
+      "tagline": "Số nhân cách 11 · Lắng nghe ánh sáng bên trong",
+      "summary": "Số nhân cách 11 mang chủ đề độ nhạy cảm, trực giác và khả năng truyền cảm hứng. Trong cách bạn xuất hiện trước người khác, nét nổi bật là khả năng cảm nhận những sắc thái tinh tế rồi chuyển chúng thành góc nhìn mới. Trong lăng kính phong thái bên ngoài, đây không phải lời khẳng định bạn nhất định là ai, mà là một gợi ý để nhận ra điều đáng nuôi dưỡng. Có thể có khoảng cách giữa điều bạn thể hiện và những điều bạn giữ riêng.",
+      "essence": "Người Đánh Thức Trực Giác là hình ảnh biểu tượng của độ nhạy cảm, trực giác và khả năng truyền cảm hứng. Được tính từ phụ âm, chỉ số này gợi mở về phong thái bạn có thể lựa chọn thể hiện ra bên ngoài. Hình ảnh người khác nhìn thấy luôn chỉ là một phần của con người bạn; nó thay đổi theo môi trường, quan hệ và trải nghiệm. Trong cách bạn xuất hiện trước người khác, bạn có thể thử nhìn lại những lần mình cảm nhận những sắc thái tinh tế rồi chuyển chúng thành góc nhìn mới. Dù điều đó có quen thuộc hay không, bạn vẫn có quyền chọn cách phát triển phù hợp với trải nghiệm thực tế. Có thể có khoảng cách giữa điều bạn thể hiện và những điều bạn giữ riêng. Điều thú vị ở chủ đề này không nằm ở việc tìm một nhãn dán để tự định nghĩa; nó nằm ở chỗ bạn nhận ra khi nào phẩm chất ấy nâng đỡ mình và khi nào cần một cách tiếp cận khác.",
+      "strengths": [
+        {
+          "title": "Nhạy cảm với ý nghĩa",
+          "description": "Hãy quan sát cách bạn có thể vận dụng 'nhạy cảm với ý nghĩa' trong phong thái bên ngoài; chú ý tình huống cụ thể thay vì tự gắn nhãn vĩnh viễn."
+        },
+        {
+          "title": "Truyền cảm hứng chân thành",
+          "description": "Hãy quan sát cách bạn có thể vận dụng 'truyền cảm hứng chân thành' trong phong thái bên ngoài; chú ý tình huống cụ thể thay vì tự gắn nhãn vĩnh viễn."
+        },
+        {
+          "title": "Thấu hiểu những điều khó diễn đạt",
+          "description": "Hãy quan sát cách bạn có thể vận dụng 'thấu hiểu những điều khó diễn đạt' trong phong thái bên ngoài; chú ý tình huống cụ thể thay vì tự gắn nhãn vĩnh viễn."
+        }
+      ],
+      "challenges": [
+        {
+          "title": "Dễ quá tải khi kỳ vọng nhiều ở bản thân",
+          "description": "Đây là một khả năng để tự quan sát, không phải điểm yếu được định sẵn. Khi nhận ra dấu hiệu này, hãy thử dừng lại và cân nhắc lựa chọn khác."
+        },
+        {
+          "title": "Có thể dao động giữa lý tưởng lớn và sự nghi ngờ chính mình",
+          "description": "Đây là một khả năng để tự quan sát, không phải điểm yếu được định sẵn. Khi nhận ra dấu hiệu này, hãy thử dừng lại và cân nhắc lựa chọn khác."
+        }
+      ],
+      "relationships": "Trong các mối quan hệ, chủ đề số 11 nhắc bạn về việc giữ ranh giới cảm xúc để sự thấu hiểu không trở thành kiệt sức. Với số nhân cách, điều đáng suy ngẫm là sự khác biệt giữa điều bạn mong đợi và điều bạn thực sự chia sẻ. Một cuộc đối thoại rõ ràng thường mang lại nhiều hiểu biết hơn việc suy đoán cảm xúc của nhau.",
+      "careerAndGrowth": "Về công việc và phát triển, bạn có thể tìm nguồn cảm hứng từ sáng tạo, giáo dục, nghệ thuật, nghiên cứu con người hoặc công việc cần sự nhạy bén. Tuy vậy, không có con số nào quyết định nghề nghiệp hay bảo đảm thành tựu. Trong phạm vi phong thái bên ngoài, hãy ưu tiên kỹ năng có thể luyện tập và kết quả bạn có thể kiểm chứng.",
+      "lifeLesson": "Trực giác hữu ích nhất khi có sự kiểm chứng và những bước đi vững chắc. Hãy hỏi một người đáng tin cậy họ thường cảm nhận điều gì khi làm việc cùng bạn. Một gợi ý thực hành: Ghi lại trực giác của bạn và kiểm chứng bằng trải nghiệm hoặc dữ kiện. Đây là lời mời trải nghiệm chứ không phải dự báo về điều sẽ xảy ra.",
+      "reflection": "Bạn có thể biến một cảm nhận mạnh mẽ thành hành động nhỏ, rõ ràng nào?",
+      "affirmation": "Tôi trân trọng sự nhạy cảm và giữ đôi chân chạm đất.",
+      "keywords": [
+        "độ nhạy cảm",
+        "trực giác và khả năng truyền cảm hứng"
+      ],
+      "suggestedAction": "Ghi lại trực giác của bạn và kiểm chứng bằng trải nghiệm hoặc dữ kiện."
+    }
+  }
+}

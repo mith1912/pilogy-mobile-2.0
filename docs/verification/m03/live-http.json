@@ -1,0 +1,22 @@
+{
+  "health": {
+    "errorType": "URLError",
+    "status": null
+  },
+  "config": {
+    "errorType": "URLError",
+    "status": null
+  },
+  "definitions": {
+    "errorType": "URLError",
+    "status": null
+  },
+  "article": {
+    "errorType": "URLError",
+    "status": null
+  },
+  "calculation": {
+    "errorType": "URLError",
+    "status": null
+  }
+}

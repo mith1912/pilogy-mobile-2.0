@@ -1,0 +1,1 @@
+PASS: stubbed wrapper forwards 1.0.12/build 13 and live-ad flags, retains verification call. No real Flutter build executed.
